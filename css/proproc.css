@@ -391,33 +391,90 @@ header .animate-out-middle-bar {
 .main_banner {
   background-image: url("../img/background.png");
   background-size: cover;
-  min-height: 1084px;
   position: relative;
+  min-height: 1084px;
+  background-repeat: repeat-x;
+  background-position: center;
+}
+@media screen and (min-width: 1441px) and (max-width: 1518px) {
+  .main_banner {
+    min-height: 1099px;
+  }
+}
+@media screen and (min-width: 1519px) and (max-width: 1670px) {
+  .main_banner {
+    min-height: 1109px;
+  }
+}
+@media screen and (min-width: 1671px) and (max-width: 1790px) {
+  .main_banner {
+    min-height: 1269px;
+  }
+}
+@media screen and (min-width: 1791px) and (max-width: 1877px) {
+  .main_banner {
+    height: 1300px;
+  }
+}
+@media screen and (min-width: 1878px) and (max-width: 1900px) {
+  .main_banner {
+    min-height: 1433px;
+  }
+}
+@media screen and (min-width: 1901px) {
+  .main_banner {
+    min-height: 1450px;
+  }
 }
 .main_banner .points a .point_1 {
   position: absolute;
   bottom: 240px;
-  right: 40px;
+  right: 2.4%;
 }
 .main_banner .points a .point_2 {
   position: absolute;
   bottom: 270px;
-  right: 610px;
+  right: 42.4%;
 }
 .main_banner .points a .point_3 {
   position: absolute;
   bottom: 310px;
-  left: 110px;
+  left: 7.5%;
+}
+@media screen and (min-width: 1519px) and (max-width: 1670px) {
+  .main_banner .points a .point_3 {
+    bottom: 283px;
+  }
+}
+@media screen and (min-width: 1671px) and (max-width: 1790px) {
+  .main_banner .points a .point_3 {
+    bottom: 365px;
+  }
+}
+@media screen and (min-width: 1791px) and (max-width: 1840px) {
+  .main_banner .points a .point_3 {
+    bottom: 367px;
+  }
+}
+@media screen and (min-width: 1878px) and (max-width: 1900px) {
+  .main_banner .points a .point_3 {
+    bottom: 424px;
+  }
+}
+@media screen and (min-width: 1901px) {
+  .main_banner .points a .point_3 {
+    bottom: 416px;
+  }
 }
 .main_banner .points a .point_4 {
   position: absolute;
   bottom: 450px;
-  left: 240px;
+  left: 16.5%;
 }
 .main_banner .points a .point_5 {
   position: absolute;
   bottom: 355px;
-  left: 270px;
+  left: 18%;
 }
 .main_banner .container {
   max-width: 861px;

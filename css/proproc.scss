@@ -9,9 +9,16 @@
         @content;
     }
 }
+@mixin screen($resMin, $resMax)
+{
+  @media screen and (min-width: $resMin) and (max-width: $resMax)
+  {
+    @content;
+  }
+}
 
 * {
-    padding: 0;
+    padding: 0 ;
     margin: 0;
     box-sizing: border-box;
 }
@@ -493,37 +500,162 @@ header {
 .main_banner {
     background-image: url('../img/background.png');
     background-size: cover;
-    min-height: 1084px;
+   
     position: relative;
+    min-height: 1084px;
+    background-repeat: repeat-x;
+
+    background-position: center;
+  
+   
+    
+    
+    @include screen(1441px, 1518px ){
+        min-height: 1099px;
+    }
+    @include screen(1519px, 1670px ){
+        min-height: 1109px;
+    }
+    @include screen(1671px, 1790px ){
+        min-height: 1269px;
+    }
+    @include screen(1791px, 1877px ){
+        height: 1300px;
+    }
+    @include screen(1878px, 1900px ){
+        min-height: 1433px;
+    }
+    @include min-screen(1901px){
+        min-height: 1450px;
+        
+    }
+  
+
 
     .points {
         a {
             .point_1 {
                 position: absolute;
                 bottom: 240px;
-                right: 40px;
+                right: 2.4%;
+               
+                @include screen(1519px, 1670px ){
+                    
+                   
+                }
+                @include screen(1671px, 1790px ){
+                   
+                   
+                }
+                @include screen(1791px, 1840px ){
+                    
+                   
+                }
+                @include screen(1878px, 1900px ){
+                    
+                }
+                @include min-screen(1901px){
+                    
+                    
+                }
 
             }
 
             .point_2 {
                 position: absolute;
                 bottom: 270px;
-                right: 610px;
+                right: 42.4%;
+                @include screen(1519px, 1670px ){
+                    
+                   
+                }
+                @include screen(1671px, 1790px ){
+                   
+                   
+                }
+                @include screen(1791px, 1840px ){
+                    
+                   
+                }
+                @include screen(1878px, 1900px ){
+                    
+                }
+                @include min-screen(1901px){
+                    
+                    
+                }
+              
             }
             .point_3{
                 position: absolute;
                 bottom: 310px;
-                left: 110px
+                left: 7.5%;
+                @include screen(1519px, 1670px ){
+                    bottom: 283px;
+                }
+                @include screen(1671px, 1790px ){
+                   
+                    bottom: 365px;
+                }
+                @include screen(1791px, 1840px ){
+                    bottom: 367px;
+                   
+                }
+                @include screen(1878px, 1900px ){
+                    bottom: 424px;
+                }
+                @include min-screen(1901px){
+                    bottom: 416px;
+                    
+                }
             }
             .point_4{
                 position: absolute;
                 bottom: 450px;
-                left: 240px
+                left: 16.5%;
+                @include screen(1519px, 1670px ){
+                    
+                   
+                }
+                @include screen(1671px, 1790px ){
+                   
+                   
+                }
+                @include screen(1791px, 1840px ){
+                    
+                   
+                }
+                @include screen(1878px, 1900px ){
+                    
+                }
+                @include min-screen(1901px){
+                    
+                    
+                }
             }
             .point_5{
                 position: absolute;
                 bottom: 355px;
-                left: 270px
+                left: 18%;
+                @include screen(1519px, 1670px ){
+                    
+                   
+                }
+                @include screen(1671px, 1790px ){
+                   
+                   
+                }
+                @include screen(1791px, 1840px ){
+                    
+                   
+                }
+                @include screen(1878px, 1900px ){
+                    
+                }
+                @include min-screen(1901px){
+                    
+                    
+                }
             }
         }
     }
@@ -595,12 +727,14 @@ header {
 .why_choosing_us{
     padding-top: 120px;
     background-color: #FFF;
+    
     .container{
         @extend .container;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+
        
     }
     h2{
