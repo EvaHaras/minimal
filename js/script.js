@@ -33,22 +33,71 @@ $('.open-overlay').click(function() {
       nav_item_5.removeClass('slide-in-nav-item-delay-4').addClass('slide-in-nav-item-delay-4-reverse');
     }
 })
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
-      loop:true,
-      margin:10,
-      nav:true,
-      autoplay:true,
-      autoplayTimeout:2000,
-      navText: [ '', ' ' ],
+// $(document).ready(function(){
+//   $('.owl-carousel').owlCarousel({
+//       loop:true,
+//       margin:10,
+//       nav:true,
+//       autoplay:true,
+//       autoplayTimeout:2000,
+//       navText: [ '', ' ' ],
 
-      responsive:{
-          0:{
-              items:1
-          },
-          1100:{
-              items:4
-          }
-      }
+//       responsive:{
+//           0:{
+//               items:1
+//           },
+//           1100:{
+//               items:4
+//           }
+//       }
+//   });
+// });
+
+
+$(document).ready(function(){
+    $("#carousel1").owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        navText: [ '', ' ' ],
+  
+        responsive:{
+            0:{
+                items:1
+            },
+            536:{
+                items:2
+            },
+            788:{
+                items:3
+            },
+            1042:{
+                items:4
+            }
+        }
+    });
   });
-});
+  $(document).ready(function(){
+    $("#carousel2").owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        navText: [ '', ' ' ],
+  
+        responsive:{
+            0:{
+                items:1
+            },
+            785:{
+                items:2
+            },
+            1065:{
+                items:3
+            }
+        }
+    });
+  });

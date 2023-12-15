@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,12 @@
 .container, .carousel .container, header .carousel .container, .carousel header .container, .main_banner .carousel .container, .carousel .main_banner .container, header .main_banner .carousel .container, .carousel header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, .why_choosing_us .carousel .container, .carousel .why_choosing_us .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, .main_banner .why_choosing_us .carousel .container, .carousel .main_banner .why_choosing_us .container, .why_choosing_us .main_banner .carousel .container, .carousel .why_choosing_us .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, .why_choosing_us .container, .why_choosing_us .carousel .container, .carousel .why_choosing_us .container, .why_choosing_us header .carousel .container, header .carousel .why_choosing_us .container, .why_choosing_us .carousel header .container, .carousel header .why_choosing_us .container, .why_choosing_us .main_banner .carousel .container, .main_banner .carousel .why_choosing_us .container, .why_choosing_us .carousel .main_banner .container, .carousel .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, header .main_banner .carousel .why_choosing_us .container, .why_choosing_us .carousel header .main_banner .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .main_banner header .carousel .why_choosing_us .container, .why_choosing_us .carousel .main_banner header .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .carousel .container, .carousel .why_choosing_us .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, .main_banner .why_choosing_us .carousel .container, .carousel .main_banner .why_choosing_us .container, .why_choosing_us .main_banner .carousel .container, .carousel .why_choosing_us .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, .main_banner .container, .main_banner .carousel .container, .carousel .main_banner .container, .main_banner header .carousel .container, header .carousel .main_banner .container, .main_banner .carousel header .container, .carousel header .main_banner .container, .main_banner .carousel .container, .carousel .main_banner .container, header .main_banner .carousel .container, .carousel header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, .main_banner .why_choosing_us .carousel .container, .why_choosing_us .carousel .main_banner .container, .main_banner .carousel .why_choosing_us .container, .carousel .why_choosing_us .main_banner .container, .main_banner header .why_choosing_us .carousel .container, header .why_choosing_us .carousel .main_banner .container, .main_banner .carousel header .why_choosing_us .container, .carousel header .why_choosing_us .main_banner .container, .main_banner .why_choosing_us header .carousel .container, .why_choosing_us header .carousel .main_banner .container, .main_banner .carousel .why_choosing_us header .container, .carousel .why_choosing_us header .main_banner .container, .main_banner .why_choosing_us .carousel .container, .carousel .main_banner .why_choosing_us .container, .why_choosing_us .main_banner .carousel .container, .carousel .why_choosing_us .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, header .container, header .carousel .container, .carousel header .container, header .carousel .container, .carousel header .container, header .main_banner .carousel .container, .main_banner .carousel header .container, header .carousel .main_banner .container, .carousel .main_banner header .container, header .main_banner .carousel .container, .carousel header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, header .why_choosing_us .carousel .container, .why_choosing_us .carousel header .container, header .carousel .why_choosing_us .container, .carousel .why_choosing_us header .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, header .main_banner .why_choosing_us .carousel .container, .main_banner .why_choosing_us .carousel header .container, header .carousel .main_banner .why_choosing_us .container, .carousel .main_banner .why_choosing_us header .container, header .why_choosing_us .main_banner .carousel .container, .why_choosing_us .main_banner .carousel header .container, header .carousel .why_choosing_us .main_banner .container, .carousel .why_choosing_us .main_banner header .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container {
   max-width: 1200px;
   margin: auto;
+}
+@media screen and (max-width: 1200px) {
+  .container, .carousel .container, header .carousel .container, .carousel header .container, .main_banner .carousel .container, .carousel .main_banner .container, header .main_banner .carousel .container, .carousel header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, .why_choosing_us .carousel .container, .carousel .why_choosing_us .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, .main_banner .why_choosing_us .carousel .container, .carousel .main_banner .why_choosing_us .container, .why_choosing_us .main_banner .carousel .container, .carousel .why_choosing_us .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, .why_choosing_us .container, .why_choosing_us .carousel .container, .carousel .why_choosing_us .container, .why_choosing_us header .carousel .container, header .carousel .why_choosing_us .container, .why_choosing_us .carousel header .container, .carousel header .why_choosing_us .container, .why_choosing_us .main_banner .carousel .container, .main_banner .carousel .why_choosing_us .container, .why_choosing_us .carousel .main_banner .container, .carousel .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, header .main_banner .carousel .why_choosing_us .container, .why_choosing_us .carousel header .main_banner .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .main_banner header .carousel .why_choosing_us .container, .why_choosing_us .carousel .main_banner header .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .carousel .container, .carousel .why_choosing_us .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, .main_banner .why_choosing_us .carousel .container, .carousel .main_banner .why_choosing_us .container, .why_choosing_us .main_banner .carousel .container, .carousel .why_choosing_us .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, .main_banner .container, .main_banner .carousel .container, .carousel .main_banner .container, .main_banner header .carousel .container, header .carousel .main_banner .container, .main_banner .carousel header .container, .carousel header .main_banner .container, .main_banner .carousel .container, .carousel .main_banner .container, header .main_banner .carousel .container, .carousel header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, .main_banner .why_choosing_us .carousel .container, .why_choosing_us .carousel .main_banner .container, .main_banner .carousel .why_choosing_us .container, .carousel .why_choosing_us .main_banner .container, .main_banner header .why_choosing_us .carousel .container, header .why_choosing_us .carousel .main_banner .container, .main_banner .carousel header .why_choosing_us .container, .carousel header .why_choosing_us .main_banner .container, .main_banner .why_choosing_us header .carousel .container, .why_choosing_us header .carousel .main_banner .container, .main_banner .carousel .why_choosing_us header .container, .carousel .why_choosing_us header .main_banner .container, .main_banner .why_choosing_us .carousel .container, .carousel .main_banner .why_choosing_us .container, .why_choosing_us .main_banner .carousel .container, .carousel .why_choosing_us .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, header .container, header .carousel .container, .carousel header .container, header .carousel .container, .carousel header .container, header .main_banner .carousel .container, .main_banner .carousel header .container, header .carousel .main_banner .container, .carousel .main_banner header .container, header .main_banner .carousel .container, .carousel header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, header .why_choosing_us .carousel .container, .why_choosing_us .carousel header .container, header .carousel .why_choosing_us .container, .carousel .why_choosing_us header .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, header .main_banner .why_choosing_us .carousel .container, .main_banner .why_choosing_us .carousel header .container, header .carousel .main_banner .why_choosing_us .container, .carousel .main_banner .why_choosing_us header .container, header .why_choosing_us .main_banner .carousel .container, .why_choosing_us .main_banner .carousel header .container, header .carousel .why_choosing_us .main_banner .container, .carousel .why_choosing_us .main_banner header .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 body {
@@ -52,6 +59,17 @@ header .container, header .carousel .container, .carousel header .container, hea
   header .container, header .carousel .container, .carousel header .container, header .carousel .container, .carousel header .container, header .main_banner .carousel .container, .main_banner .carousel header .container, header .carousel .main_banner .container, .carousel .main_banner header .container, header .main_banner .carousel .container, .carousel header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, header .why_choosing_us .carousel .container, .why_choosing_us .carousel header .container, header .carousel .why_choosing_us .container, .carousel .why_choosing_us header .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, header .main_banner .why_choosing_us .carousel .container, .main_banner .why_choosing_us .carousel header .container, header .carousel .main_banner .why_choosing_us .container, .carousel .main_banner .why_choosing_us header .container, header .why_choosing_us .main_banner .carousel .container, .why_choosing_us .main_banner .carousel header .container, header .carousel .why_choosing_us .main_banner .container, .carousel .why_choosing_us .main_banner header .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, header .why_choosing_us .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, header .why_choosing_us .carousel .container, header .carousel .why_choosing_us .container, .carousel header .why_choosing_us .container, header .why_choosing_us .main_banner .carousel .container, .main_banner .carousel header .why_choosing_us .container, header .why_choosing_us .carousel .main_banner .container, .carousel .main_banner header .why_choosing_us .container, header .why_choosing_us .main_banner .carousel .container, header .main_banner .carousel .why_choosing_us .container, .carousel header .why_choosing_us .main_banner .container, .carousel header .main_banner .why_choosing_us .container, .main_banner header .why_choosing_us .carousel .container, .main_banner header .carousel .why_choosing_us .container, .carousel .main_banner header .why_choosing_us .container, header .why_choosing_us .carousel .container, header .carousel .why_choosing_us .container, .carousel header .why_choosing_us .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, header .why_choosing_us header .carousel .container, header .carousel .why_choosing_us header .container, .carousel header .why_choosing_us header .container, header .main_banner .why_choosing_us .carousel .container, .main_banner header .why_choosing_us .carousel .container, header .carousel .main_banner .why_choosing_us .container, .carousel .main_banner header .why_choosing_us .container, header .why_choosing_us .main_banner .carousel .container, header .carousel .why_choosing_us .main_banner .container, .carousel header .why_choosing_us .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, header .why_choosing_us header .main_banner .carousel .container, header .carousel .why_choosing_us header .main_banner .container, .carousel header .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, header .why_choosing_us .main_banner header .carousel .container, header .carousel .why_choosing_us .main_banner header .container, .carousel header .why_choosing_us .main_banner header .container, .why_choosing_us header .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, .why_choosing_us header .carousel .container, .why_choosing_us .carousel header .container, .carousel .why_choosing_us header .container, .why_choosing_us header .main_banner .carousel .container, .main_banner .carousel .why_choosing_us header .container, .why_choosing_us header .carousel .main_banner .container, .carousel .main_banner .why_choosing_us header .container, .why_choosing_us header .main_banner .carousel .container, .why_choosing_us .carousel header .main_banner .container, .carousel .why_choosing_us header .main_banner .container, .why_choosing_us .main_banner header .carousel .container, .main_banner .why_choosing_us header .carousel .container, .why_choosing_us .carousel .main_banner header .container, .carousel .main_banner .why_choosing_us header .container, .why_choosing_us header .carousel .container, .why_choosing_us .carousel header .container, .carousel .why_choosing_us header .container, .why_choosing_us header .why_choosing_us .carousel .container, .why_choosing_us .carousel header .why_choosing_us .container, .carousel .why_choosing_us header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, .main_banner .why_choosing_us header .carousel .container, .main_banner .why_choosing_us .carousel header .container, .carousel .main_banner .why_choosing_us header .container, .why_choosing_us header .main_banner .carousel .container, .why_choosing_us .main_banner .carousel header .container, .carousel .why_choosing_us header .main_banner .container, .carousel .why_choosing_us .main_banner header .container, .why_choosing_us header .main_banner .why_choosing_us .carousel .container, .why_choosing_us .carousel header .main_banner .why_choosing_us .container, .carousel .why_choosing_us header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .why_choosing_us .main_banner header .why_choosing_us .carousel .container, .main_banner .why_choosing_us header .why_choosing_us .carousel .container, .why_choosing_us .carousel .main_banner header .why_choosing_us .container, .carousel .main_banner .why_choosing_us header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, header .main_banner .container, header .main_banner .carousel .container, .carousel header .main_banner .container, header .main_banner .carousel .container, header .carousel .main_banner .container, .carousel header .main_banner .container, header .main_banner .carousel .container, header .carousel .main_banner .container, .carousel header .main_banner .container, header .main_banner .carousel .container, .carousel header .main_banner .container, header .main_banner header .carousel .container, header .carousel .main_banner header .container, .carousel header .main_banner header .container, header .main_banner .why_choosing_us .carousel .container, .why_choosing_us .carousel header .main_banner .container, header .main_banner .carousel .why_choosing_us .container, .carousel .why_choosing_us header .main_banner .container, header .main_banner .why_choosing_us .carousel .container, header .why_choosing_us .carousel .main_banner .container, .carousel header .main_banner .why_choosing_us .container, .carousel header .why_choosing_us .main_banner .container, .why_choosing_us header .main_banner .carousel .container, .why_choosing_us header .carousel .main_banner .container, .carousel .why_choosing_us header .main_banner .container, header .main_banner .why_choosing_us .carousel .container, header .carousel .main_banner .why_choosing_us .container, .carousel header .main_banner .why_choosing_us .container, header .why_choosing_us .main_banner .carousel .container, .why_choosing_us header .main_banner .carousel .container, header .carousel .why_choosing_us .main_banner .container, .carousel .why_choosing_us header .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, header .main_banner header .why_choosing_us .carousel .container, header .carousel .main_banner header .why_choosing_us .container, .carousel header .main_banner header .why_choosing_us .container, header .why_choosing_us .main_banner header .carousel .container, .why_choosing_us header .main_banner header .carousel .container, header .carousel .why_choosing_us .main_banner header .container, .carousel .why_choosing_us header .main_banner header .container, .main_banner header .container, .main_banner header .carousel .container, .carousel .main_banner header .container, .main_banner header .carousel .container, .main_banner .carousel header .container, .carousel .main_banner header .container, .main_banner header .carousel .container, .main_banner .carousel header .container, .carousel .main_banner header .container, .main_banner header .main_banner .carousel .container, .main_banner .carousel header .main_banner .container, .carousel .main_banner header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, .main_banner header .why_choosing_us .carousel .container, .why_choosing_us .carousel .main_banner header .container, .main_banner header .carousel .why_choosing_us .container, .carousel .why_choosing_us .main_banner header .container, .main_banner header .why_choosing_us .carousel .container, .main_banner .carousel header .why_choosing_us .container, .carousel .main_banner header .why_choosing_us .container, .main_banner .why_choosing_us header .carousel .container, .why_choosing_us .main_banner header .carousel .container, .main_banner .carousel .why_choosing_us header .container, .carousel .why_choosing_us .main_banner header .container, .main_banner header .why_choosing_us .carousel .container, .main_banner .why_choosing_us .carousel header .container, .carousel .main_banner header .why_choosing_us .container, .carousel .main_banner .why_choosing_us header .container, .why_choosing_us .main_banner header .carousel .container, .why_choosing_us .main_banner .carousel header .container, .carousel .why_choosing_us .main_banner header .container, .main_banner header .main_banner .why_choosing_us .carousel .container, .main_banner .carousel header .main_banner .why_choosing_us .container, .carousel .main_banner header .main_banner .why_choosing_us .container, .main_banner .why_choosing_us header .main_banner .carousel .container, .why_choosing_us .main_banner header .main_banner .carousel .container, .main_banner .carousel .why_choosing_us header .main_banner .container, .carousel .why_choosing_us .main_banner header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container {
     padding: 20px 15px;
   }
+}
+@media screen and (max-width: 1000px) {
+  header .container, header .carousel .container, .carousel header .container, header .carousel .container, .carousel header .container, header .main_banner .carousel .container, .main_banner .carousel header .container, header .carousel .main_banner .container, .carousel .main_banner header .container, header .main_banner .carousel .container, .carousel header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, header .why_choosing_us .carousel .container, .why_choosing_us .carousel header .container, header .carousel .why_choosing_us .container, .carousel .why_choosing_us header .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, header .main_banner .why_choosing_us .carousel .container, .main_banner .why_choosing_us .carousel header .container, header .carousel .main_banner .why_choosing_us .container, .carousel .main_banner .why_choosing_us header .container, header .why_choosing_us .main_banner .carousel .container, .why_choosing_us .main_banner .carousel header .container, header .carousel .why_choosing_us .main_banner .container, .carousel .why_choosing_us .main_banner header .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, header .why_choosing_us .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, header .why_choosing_us .carousel .container, header .carousel .why_choosing_us .container, .carousel header .why_choosing_us .container, header .why_choosing_us .main_banner .carousel .container, .main_banner .carousel header .why_choosing_us .container, header .why_choosing_us .carousel .main_banner .container, .carousel .main_banner header .why_choosing_us .container, header .why_choosing_us .main_banner .carousel .container, header .main_banner .carousel .why_choosing_us .container, .carousel header .why_choosing_us .main_banner .container, .carousel header .main_banner .why_choosing_us .container, .main_banner header .why_choosing_us .carousel .container, .main_banner header .carousel .why_choosing_us .container, .carousel .main_banner header .why_choosing_us .container, header .why_choosing_us .carousel .container, header .carousel .why_choosing_us .container, .carousel header .why_choosing_us .container, header .why_choosing_us .carousel .container, .carousel header .why_choosing_us .container, header .why_choosing_us header .carousel .container, header .carousel .why_choosing_us header .container, .carousel header .why_choosing_us header .container, header .main_banner .why_choosing_us .carousel .container, .main_banner header .why_choosing_us .carousel .container, header .carousel .main_banner .why_choosing_us .container, .carousel .main_banner header .why_choosing_us .container, header .why_choosing_us .main_banner .carousel .container, header .carousel .why_choosing_us .main_banner .container, .carousel header .why_choosing_us .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, header .why_choosing_us header .main_banner .carousel .container, header .carousel .why_choosing_us header .main_banner .container, .carousel header .why_choosing_us header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, header .why_choosing_us .main_banner header .carousel .container, header .carousel .why_choosing_us .main_banner header .container, .carousel header .why_choosing_us .main_banner header .container, .why_choosing_us header .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, .why_choosing_us header .carousel .container, .why_choosing_us .carousel header .container, .carousel .why_choosing_us header .container, .why_choosing_us header .main_banner .carousel .container, .main_banner .carousel .why_choosing_us header .container, .why_choosing_us header .carousel .main_banner .container, .carousel .main_banner .why_choosing_us header .container, .why_choosing_us header .main_banner .carousel .container, .why_choosing_us .carousel header .main_banner .container, .carousel .why_choosing_us header .main_banner .container, .why_choosing_us .main_banner header .carousel .container, .main_banner .why_choosing_us header .carousel .container, .why_choosing_us .carousel .main_banner header .container, .carousel .main_banner .why_choosing_us header .container, .why_choosing_us header .carousel .container, .why_choosing_us .carousel header .container, .carousel .why_choosing_us header .container, .why_choosing_us header .why_choosing_us .carousel .container, .why_choosing_us .carousel header .why_choosing_us .container, .carousel .why_choosing_us header .why_choosing_us .container, .why_choosing_us header .carousel .container, .carousel .why_choosing_us header .container, .main_banner .why_choosing_us header .carousel .container, .main_banner .why_choosing_us .carousel header .container, .carousel .main_banner .why_choosing_us header .container, .why_choosing_us header .main_banner .carousel .container, .why_choosing_us .main_banner .carousel header .container, .carousel .why_choosing_us header .main_banner .container, .carousel .why_choosing_us .main_banner header .container, .why_choosing_us header .main_banner .why_choosing_us .carousel .container, .why_choosing_us .carousel header .main_banner .why_choosing_us .container, .carousel .why_choosing_us header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, .why_choosing_us .main_banner header .why_choosing_us .carousel .container, .main_banner .why_choosing_us header .why_choosing_us .carousel .container, .why_choosing_us .carousel .main_banner header .why_choosing_us .container, .carousel .main_banner .why_choosing_us header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container, header .main_banner .container, header .main_banner .carousel .container, .carousel header .main_banner .container, header .main_banner .carousel .container, header .carousel .main_banner .container, .carousel header .main_banner .container, header .main_banner .carousel .container, header .carousel .main_banner .container, .carousel header .main_banner .container, header .main_banner .carousel .container, .carousel header .main_banner .container, header .main_banner header .carousel .container, header .carousel .main_banner header .container, .carousel header .main_banner header .container, header .main_banner .why_choosing_us .carousel .container, .why_choosing_us .carousel header .main_banner .container, header .main_banner .carousel .why_choosing_us .container, .carousel .why_choosing_us header .main_banner .container, header .main_banner .why_choosing_us .carousel .container, header .why_choosing_us .carousel .main_banner .container, .carousel header .main_banner .why_choosing_us .container, .carousel header .why_choosing_us .main_banner .container, .why_choosing_us header .main_banner .carousel .container, .why_choosing_us header .carousel .main_banner .container, .carousel .why_choosing_us header .main_banner .container, header .main_banner .why_choosing_us .carousel .container, header .carousel .main_banner .why_choosing_us .container, .carousel header .main_banner .why_choosing_us .container, header .why_choosing_us .main_banner .carousel .container, .why_choosing_us header .main_banner .carousel .container, header .carousel .why_choosing_us .main_banner .container, .carousel .why_choosing_us header .main_banner .container, header .main_banner .why_choosing_us .carousel .container, .carousel header .main_banner .why_choosing_us .container, .why_choosing_us header .main_banner .carousel .container, .carousel .why_choosing_us header .main_banner .container, header .main_banner header .why_choosing_us .carousel .container, header .carousel .main_banner header .why_choosing_us .container, .carousel header .main_banner header .why_choosing_us .container, header .why_choosing_us .main_banner header .carousel .container, .why_choosing_us header .main_banner header .carousel .container, header .carousel .why_choosing_us .main_banner header .container, .carousel .why_choosing_us header .main_banner header .container, .main_banner header .container, .main_banner header .carousel .container, .carousel .main_banner header .container, .main_banner header .carousel .container, .main_banner .carousel header .container, .carousel .main_banner header .container, .main_banner header .carousel .container, .main_banner .carousel header .container, .carousel .main_banner header .container, .main_banner header .main_banner .carousel .container, .main_banner .carousel header .main_banner .container, .carousel .main_banner header .main_banner .container, .main_banner header .carousel .container, .carousel .main_banner header .container, .main_banner header .why_choosing_us .carousel .container, .why_choosing_us .carousel .main_banner header .container, .main_banner header .carousel .why_choosing_us .container, .carousel .why_choosing_us .main_banner header .container, .main_banner header .why_choosing_us .carousel .container, .main_banner .carousel header .why_choosing_us .container, .carousel .main_banner header .why_choosing_us .container, .main_banner .why_choosing_us header .carousel .container, .why_choosing_us .main_banner header .carousel .container, .main_banner .carousel .why_choosing_us header .container, .carousel .why_choosing_us .main_banner header .container, .main_banner header .why_choosing_us .carousel .container, .main_banner .why_choosing_us .carousel header .container, .carousel .main_banner header .why_choosing_us .container, .carousel .main_banner .why_choosing_us header .container, .why_choosing_us .main_banner header .carousel .container, .why_choosing_us .main_banner .carousel header .container, .carousel .why_choosing_us .main_banner header .container, .main_banner header .main_banner .why_choosing_us .carousel .container, .main_banner .carousel header .main_banner .why_choosing_us .container, .carousel .main_banner header .main_banner .why_choosing_us .container, .main_banner .why_choosing_us header .main_banner .carousel .container, .why_choosing_us .main_banner header .main_banner .carousel .container, .main_banner .carousel .why_choosing_us header .main_banner .container, .carousel .why_choosing_us .main_banner header .main_banner .container, .main_banner header .why_choosing_us .carousel .container, .carousel .main_banner header .why_choosing_us .container, .why_choosing_us .main_banner header .carousel .container, .carousel .why_choosing_us .main_banner header .container {
+    padding: 15px 15px;
+  }
+}
+header .logo img {
+  max-width: 50px;
+}
+header .bag img {
+  max-width: 20px;
 }
 header .home {
   display: none;
@@ -243,12 +261,29 @@ header .slide-in-nav-item-delay-4 {
     display: block;
     cursor: pointer;
   }
+}
+@media screen and (max-width: 750px) and (max-width: 638px) {
+  header .open-overlay {
+    top: 8px;
+  }
+}
+@media screen and (max-width: 750px) and (max-width: 434px) {
+  header .open-overlay {
+    width: 22px;
+  }
+}
+@media screen and (max-width: 750px) {
   header .open-overlay span {
     display: block;
     height: 2px;
     background-color: white;
     cursor: pointer;
     margin-top: 8px;
+  }
+}
+@media screen and (max-width: 750px) and (max-width: 434px) {
+  header .open-overlay span {
+    margin-top: 5px;
   }
 }
 header .animate-top-bar {
@@ -393,37 +428,152 @@ header .animate-out-middle-bar {
   background-size: cover;
   position: relative;
   min-height: 1084px;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   background-position: center;
+}
+@media screen and (min-width: 280px) and (max-width: 319px) {
+  .main_banner {
+    min-height: 193px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 351px) {
+  .main_banner {
+    min-height: 238px;
+  }
+}
+@media screen and (min-width: 352px) and (max-width: 374px) {
+  .main_banner {
+    min-height: 263px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 392px) {
+  .main_banner {
+    min-height: 279px;
+  }
+}
+@media screen and (min-width: 393px) and (max-width: 399px) {
+  .main_banner {
+    min-height: 293px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 413px) {
+  .main_banner {
+    min-height: 298px;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 429px) {
+  .main_banner {
+    min-height: 312px;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 479px) {
+  .main_banner {
+    min-height: 334px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  .main_banner {
+    min-height: 356px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .main_banner {
+    min-height: 475px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  .main_banner {
+    min-height: 583px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 819px) {
+  .main_banner {
+    min-height: 601px;
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 833px) {
+  .main_banner {
+    min-height: 621px;
+  }
+}
+@media screen and (min-width: 834px) and (max-width: 854px) {
+  .main_banner {
+    min-height: 628px;
+  }
+}
+@media screen and (min-width: 855px) and (max-width: 959px) {
+  .main_banner {
+    min-height: 644px;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 991px) {
+  .main_banner {
+    min-height: 720px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  .main_banner {
+    min-height: 749px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  .main_banner {
+    min-height: 762px;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1199px) {
+  .main_banner {
+    min-height: 876px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+  .main_banner {
+    min-height: 905px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+  .main_banner {
+    min-height: 961px;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1439px) {
+  .main_banner {
+    min-height: 1073px;
+  }
 }
 @media screen and (min-width: 1441px) and (max-width: 1518px) {
   .main_banner {
     min-height: 1099px;
   }
 }
-@media screen and (min-width: 1519px) and (max-width: 1670px) {
+@media screen and (min-width: 1536px) and (max-width: 1600px) {
   .main_banner {
-    min-height: 1109px;
+    min-height: 1153px;
   }
 }
-@media screen and (min-width: 1671px) and (max-width: 1790px) {
+@media screen and (min-width: 1600px) and (max-width: 1670px) {
+  .main_banner {
+    min-height: 1200px;
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 1910px) {
   .main_banner {
     min-height: 1269px;
   }
 }
-@media screen and (min-width: 1791px) and (max-width: 1877px) {
-  .main_banner {
-    height: 1300px;
-  }
-}
-@media screen and (min-width: 1878px) and (max-width: 1900px) {
-  .main_banner {
-    min-height: 1433px;
-  }
-}
-@media screen and (min-width: 1901px) {
+@media screen and (min-width: 1920px) and (max-width: 2040px) {
   .main_banner {
     min-height: 1450px;
+  }
+}
+@media screen and (min-width: 2048px) and (max-width: 2559px) {
+  .main_banner {
+    min-height: 1534px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .main_banner {
+    min-height: 1926px;
   }
 }
 .main_banner .points a .point_1 {
@@ -431,39 +581,195 @@ header .animate-out-middle-bar {
   bottom: 240px;
   right: 2.4%;
 }
+@media screen and (max-width: 992px) {
+  .main_banner .points a .point_1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  .main_banner .points a .point_1 {
+    bottom: 160px;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1199px) {
+  .main_banner .points a .point_1 {
+    bottom: 192px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+  .main_banner .points a .point_1 {
+    bottom: 198px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+  .main_banner .points a .point_1 {
+    bottom: 210px;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1439px) {
+  .main_banner .points a .point_1 {
+    right: 2%;
+  }
+}
+@media screen and (min-width: 1536px) and (max-width: 1600px) {
+  .main_banner .points a .point_1 {
+    bottom: 253px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1670px) {
+  .main_banner .points a .point_1 {
+    bottom: 261px;
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 1910px) {
+  .main_banner .points a .point_1 {
+    bottom: 276px;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2040px) {
+  .main_banner .points a .point_1 {
+    bottom: 321px;
+  }
+}
+@media screen and (min-width: 2048px) and (max-width: 2559px) {
+  .main_banner .points a .point_1 {
+    bottom: 342px;
+    right: 2.7%;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .main_banner .points a .point_1 {
+    bottom: 437px;
+    right: 3%;
+  }
+}
 .main_banner .points a .point_2 {
   position: absolute;
   bottom: 270px;
   right: 42.4%;
+}
+@media screen and (max-width: 992px) {
+  .main_banner .points a .point_2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  .main_banner .points a .point_2 {
+    bottom: 189px;
+    max-width: 25px;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1199px) {
+  .main_banner .points a .point_2 {
+    bottom: 216px;
+    max-width: 30px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+  .main_banner .points a .point_2 {
+    bottom: 234px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+  .main_banner .points a .point_2 {
+    bottom: 245px;
+  }
+}
+@media screen and (min-width: 1536px) and (max-width: 1600px) {
+  .main_banner .points a .point_2 {
+    bottom: 291px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1670px) {
+  .main_banner .points a .point_2 {
+    bottom: 304px;
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 1910px) {
+  .main_banner .points a .point_2 {
+    bottom: 324px;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2040px) {
+  .main_banner .points a .point_2 {
+    bottom: 377px;
+  }
+}
+@media screen and (min-width: 2048px) and (max-width: 2559px) {
+  .main_banner .points a .point_2 {
+    bottom: 395px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .main_banner .points a .point_2 {
+    bottom: 513px;
+    right: 42.9%;
+  }
 }
 .main_banner .points a .point_3 {
   position: absolute;
   bottom: 310px;
   left: 7.5%;
 }
-@media screen and (min-width: 1519px) and (max-width: 1670px) {
+@media screen and (max-width: 992px) {
   .main_banner .points a .point_3 {
-    bottom: 283px;
+    display: none;
   }
 }
-@media screen and (min-width: 1671px) and (max-width: 1790px) {
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
   .main_banner .points a .point_3 {
-    bottom: 365px;
+    bottom: 215px;
+    max-width: 25px;
   }
 }
-@media screen and (min-width: 1791px) and (max-width: 1840px) {
+@media screen and (min-width: 1152px) and (max-width: 1199px) {
   .main_banner .points a .point_3 {
-    bottom: 367px;
+    bottom: 246px;
   }
 }
-@media screen and (min-width: 1878px) and (max-width: 1900px) {
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
   .main_banner .points a .point_3 {
-    bottom: 424px;
+    bottom: 262px;
   }
 }
-@media screen and (min-width: 1901px) {
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
   .main_banner .points a .point_3 {
-    bottom: 416px;
+    bottom: 276px;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1439px) {
+  .main_banner .points a .point_3 {
+    left: 7%;
+  }
+}
+@media screen and (min-width: 1536px) and (max-width: 1600px) {
+  .main_banner .points a .point_3 {
+    bottom: 334px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1670px) {
+  .main_banner .points a .point_3 {
+    bottom: 346px;
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 1910px) {
+  .main_banner .points a .point_3 {
+    bottom: 370px;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2040px) {
+  .main_banner .points a .point_3 {
+    bottom: 427px;
+  }
+}
+@media screen and (min-width: 2048px) and (max-width: 2559px) {
+  .main_banner .points a .point_3 {
+    bottom: 452px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .main_banner .points a .point_3 {
+    bottom: 569px;
   }
 }
 .main_banner .points a .point_4 {
@@ -471,15 +777,150 @@ header .animate-out-middle-bar {
   bottom: 450px;
   left: 16.5%;
 }
+@media screen and (max-width: 992px) {
+  .main_banner .points a .point_4 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  .main_banner .points a .point_4 {
+    bottom: 310px;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1199px) {
+  .main_banner .points a .point_4 {
+    bottom: 358px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1239px) {
+  .main_banner .points a .point_4 {
+    bottom: 374px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+  .main_banner .points a .point_4 {
+    bottom: 394px;
+  }
+}
+@media screen and (min-width: 1536px) and (max-width: 1600px) {
+  .main_banner .points a .point_4 {
+    bottom: 470px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1670px) {
+  .main_banner .points a .point_4 {
+    bottom: 485px;
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 1910px) {
+  .main_banner .points a .point_4 {
+    bottom: 516px;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2040px) {
+  .main_banner .points a .point_4 {
+    bottom: 591px;
+  }
+}
+@media screen and (min-width: 2048px) and (max-width: 2559px) {
+  .main_banner .points a .point_4 {
+    bottom: 628px;
+    left: 358px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .main_banner .points a .point_4 {
+    bottom: 787px;
+    left: 482px;
+  }
+}
 .main_banner .points a .point_5 {
   position: absolute;
   bottom: 355px;
   left: 18%;
 }
+@media screen and (max-width: 992px) {
+  .main_banner .points a .point_5 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+  .main_banner .points a .point_5 {
+    max-width: 40px;
+    bottom: 254px;
+    left: 20%;
+  }
+}
+@media screen and (min-width: 1152px) and (max-width: 1199px) {
+  .main_banner .points a .point_5 {
+    max-width: 40px;
+    bottom: 296px;
+    left: 19.5%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1239px) {
+  .main_banner .points a .point_5 {
+    bottom: 293px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+  .main_banner .points a .point_5 {
+    bottom: 313px;
+    left: 18.5%;
+  }
+}
+@media screen and (min-width: 1536px) and (max-width: 1600px) {
+  .main_banner .points a .point_5 {
+    bottom: 376px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1670px) {
+  .main_banner .points a .point_5 {
+    bottom: 395px;
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 1910px) {
+  .main_banner .points a .point_5 {
+    bottom: 420px;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2040px) {
+  .main_banner .points a .point_5 {
+    bottom: 485px;
+  }
+}
+@media screen and (min-width: 2048px) and (max-width: 2559px) {
+  .main_banner .points a .point_5 {
+    left: 385px;
+    bottom: 517px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .main_banner .points a .point_5 {
+    left: 513px;
+    bottom: 664px;
+  }
+}
 .main_banner .container {
   max-width: 861px;
   padding-top: 161px;
   text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .main_banner .container {
+    max-width: 1000px;
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .main_banner .container {
+    padding-top: 45px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+  .main_banner .container {
+    padding-top: 101px;
+  }
 }
 .main_banner h1 {
   color: #FFF;
@@ -493,8 +934,33 @@ header .animate-out-middle-bar {
   letter-spacing: -0.8px;
   text-transform: capitalize;
 }
+@media screen and (max-width: 1200px) {
+  .main_banner h1 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .main_banner h1 {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .main_banner h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 638px) {
+  .main_banner h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 416px) {
+  .main_banner h1 {
+    font-size: 24px;
+  }
+}
 .main_banner .search {
-  width: 606px;
+  max-width: 606px;
   margin: auto;
   padding-top: 14px;
   color: #FFF;
@@ -507,6 +973,21 @@ header .animate-out-middle-bar {
   /* 38.4px */
   padding-bottom: 45px;
 }
+@media screen and (max-width: 775px) {
+  .main_banner .search {
+    padding-bottom: 11px;
+  }
+}
+@media screen and (max-width: 638px) {
+  .main_banner .search {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .main_banner .search {
+    padding: 0;
+  }
+}
 .main_banner .buttom {
   display: flex;
   justify-content: space-between;
@@ -516,6 +997,18 @@ header .animate-out-middle-bar {
   background-color: rgba(255, 255, 255, 0.15);
   padding: 8px 8px 8px 20px;
   border-radius: 42px;
+  text-decoration: none;
+}
+@media screen and (max-width: 760px) {
+  .main_banner .buttom {
+    background-color: rgba(0, 0, 0, 0.195);
+  }
+}
+@media screen and (max-width: 638px) {
+  .main_banner .buttom {
+    padding: 5px 5px 5px 10px;
+    max-width: 250px;
+  }
 }
 .main_banner .buttom p {
   color: #FFF;
@@ -526,20 +1019,59 @@ header .animate-out-middle-bar {
   line-height: 150%;
   text-align: left;
 }
+@media screen and (max-width: 638px) {
+  .main_banner .buttom p {
+    font-size: 14px;
+  }
+}
 .main_banner .buttom img {
   max-width: 40px;
   max-height: 40px;
+}
+@media screen and (max-width: 638px) {
+  .main_banner .buttom img {
+    max-width: 30px;
+    max-height: 30px;
+  }
 }
 
 .why_choosing_us {
   padding-top: 120px;
   background-color: #FFF;
 }
+@media screen and (max-width: 850px) {
+  .why_choosing_us {
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .why_choosing_us {
+    padding-top: 40px;
+  }
+}
 .why_choosing_us .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 120px;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 850px) {
+  .why_choosing_us .container {
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 834px) and (max-width: 608px) {
+  .why_choosing_us .container {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 598px) {
+  .why_choosing_us .container {
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
 }
 .why_choosing_us h2 {
   max-width: 242px;
@@ -549,6 +1081,24 @@ header .animate-out-middle-bar {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+@media screen and (max-width: 1124px) {
+  .why_choosing_us h2 {
+    max-width: 1124px;
+    width: 100%;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 834px) {
+  .why_choosing_us .information {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .why_choosing_us .information {
+    padding-top: 35px;
+  }
 }
 .why_choosing_us .information h4 {
   color: #1E1E1E;
@@ -566,7 +1116,8 @@ header .animate-out-middle-bar {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 185%; /* 29.6px */
+  line-height: 185%;
+  /* 29.6px */
 }
 .why_choosing_us .information a {
   text-decoration: none;
@@ -576,7 +1127,8 @@ header .animate-out-middle-bar {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 185%; /* 25.9px */
+  line-height: 185%;
+  /* 25.9px */
 }
 .why_choosing_us .information a:after {
   display: inline-block;
@@ -588,39 +1140,1073 @@ header .animate-out-middle-bar {
   margin-left: 13px;
 }
 
-.carousel .container {
-  max-width: 1100px;
+.carousel {
+  background-color: #F7F7F7;
+}
+.carousel .view {
+  display: block;
+  padding-top: 60px;
+  color: #E58411;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+  /* 33.3px */
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+.carousel .view:after {
+  display: inline-block;
+  content: "";
+  background-image: url("../img/arrow_back.png");
+  width: 48px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 13px;
+}
+.carousel h2 {
+  padding-top: 50px;
+  padding-bottom: 32px;
+  color: #1E1E1E;
+  font-family: Gilroy-Bold;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.carousel ul {
+  display: flex;
+  max-width: 336px;
+  justify-content: space-between;
+  margin: auto;
+  list-style: none;
+  background: #EEE;
+  padding: 7px 24px 7px 6px;
+  border-radius: 44px;
+}
+.carousel ul li {
+  text-align: center;
+}
+.carousel ul li:first-of-type {
+  background-color: #FFF;
+  border-radius: 32px;
+  padding: 0 4px;
+  width: 76px;
+}
+.carousel ul li a {
+  text-decoration: none;
+  color: #1E1E1E;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+  /* 33.3px */
+}
+@media screen and (max-width: 350px) {
+  .carousel ul li a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .carousel ul li a {
+    font-size: 12px;
+  }
 }
 .carousel .owl-carousel {
   position: relative;
+  padding-top: 80px;
+}
+.carousel .owl-carousel .product {
+  max-width: 268px;
+  margin: auto;
+}
+.carousel .owl-carousel .product .chair {
+  height: 300px;
+}
+.carousel .owl-carousel .product h4 {
+  padding-top: 6px;
+  color: #0D1B39;
+  font-family: Inter;
+  font-size: 21.325px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.carousel .owl-carousel .product .described {
+  background-color: #FFF;
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 21px;
+  padding-top: 13.71px;
+  padding-bottom: 12.42px;
+}
+.carousel .owl-carousel .product p {
+  color: #8D8D8D;
+  font-family: Inter;
+  font-size: 16.755px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.carousel .owl-carousel .product .price {
+  padding-top: 48px;
+  color: #0D1B39;
+  font-family: Inter;
+  font-size: 21.325px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.carousel .owl-carousel .product .price:before {
+  display: inline-block;
+  content: "$";
+  padding-right: 3px;
+  font-size: 15.232px;
+  vertical-align: top;
+  padding-top: 10px;
+}
+.carousel .owl-carousel .product .price:after {
+  display: inline-flex;
+  content: "+";
+  width: 48.74px;
+  height: 48.74px;
+  vertical-align: middle;
+  margin-left: 133px;
+  border-radius: 99px;
+  background: #0D1B39;
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+.carousel .owl-carousel .product .stars {
+  padding-top: 6px;
+  display: flex;
+}
+.carousel .owl-carousel .product .stars .star {
+  max-width: 18px;
+}
+.carousel .owl-carousel owl-carousel.owl-loaded {
+  margin: auto;
+}
+.carousel .owl-carousel .owl-nav.disabled {
+  display: block;
 }
 .carousel .owl-carousel .owl-nav button.owl-prev {
   display: inline-block;
   position: absolute;
-  left: -64px;
-  top: 0;
+  left: -46px;
+  top: 236px;
+}
+@media screen and (max-width: 1281px) {
+  .carousel .owl-carousel .owl-nav button.owl-prev {
+    left: -20px;
+  }
 }
 .carousel .owl-carousel .owl-nav button.owl-prev::after {
-  display: inline-block;
-  content: "";
-  background-image: url("../img/arrow_back.png");
-  width: 48px;
-  height: 24px;
-  vertical-align: middle;
+  display: inline-flex;
+  content: "←";
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
   margin-left: 13px;
+  background-color: #FFF;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 99px;
 }
 .carousel .owl-carousel .owl-nav button.owl-next {
   display: inline-block;
   position: absolute;
-  right: -64px;
-  top: 0;
+  right: -9px;
+  top: 236px;
+}
+@media screen and (max-width: 1281px) {
+  .carousel .owl-carousel .owl-nav button.owl-next {
+    right: 0px;
+  }
 }
 .carousel .owl-carousel .owl-nav button.owl-next::after {
+  display: inline-flex;
+  content: "→";
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 13px;
+  background-color: #FFF;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 99px;
+}
+
+.experiences {
+  background-color: #fff;
+  display: flex;
+  justify-content: end;
+  background-image: url("../img/experiences.png");
+  min-height: 753px;
+  background-repeat: no-repeat;
+  background-position: top 306px left -20px;
+  padding-right: 141px;
+}
+@media screen and (max-width: 1350px) {
+  .experiences {
+    padding-right: 41px;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .experiences {
+    background-position: top 160px left -20px;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .experiences {
+    background-position: top 40px left -20px;
+    min-height: auto;
+  }
+}
+@media screen and (max-width: 580px) {
+  .experiences {
+    background-size: 350px;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 350px) {
+  .experiences {
+    background-size: 280px;
+  }
+}
+.experiences .container {
+  max-width: 556px;
+  margin: inherit;
+  padding-top: 323px;
+}
+@media screen and (max-width: 1210px) {
+  .experiences .container {
+    padding-top: 160px;
+    max-width: 375px;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .experiences .container {
+    padding-top: 500px;
+    max-width: 556px;
+    text-align: end;
+  }
+}
+@media screen and (max-width: 580px) {
+  .experiences .container {
+    padding-top: 330px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .experiences .container {
+    padding-top: 270px;
+  }
+}
+.experiences .container .title {
+  color: #E58411;
+  font-family: Gilroy-SemiBold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  text-transform: uppercase;
+}
+.experiences .container h2 {
+  max-width: 413px;
+  padding-top: 20px;
+  color: #1E1E1E;
+  font-family: Gilroy-Bold;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 1010px) {
+  .experiences .container h2 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 638px) {
+  .experiences .container h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 416px) {
+  .experiences .container h2 {
+    font-size: 20px;
+  }
+}
+.experiences .container p {
+  padding-top: 20px;
+  color: #1E1E1E;
+  font-family: Gilroy-Regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+  /* 33.3px */
+}
+.experiences .container .more_info {
+  padding-top: 24px;
+  text-decoration: none;
+  padding-top: 14px;
+  color: #E58411;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+}
+.experiences .container .more_info:after {
   display: inline-block;
   content: "";
-  background-image: url("../img/arrow_back.png");
+  background-image: url(../img/arrow_back.png);
   width: 48px;
   height: 24px;
   vertical-align: middle;
   margin-left: 13px;
+}
+
+.materials {
+  background-color: #FFF;
+  background-image: url("../img/materials.png");
+  background-repeat: no-repeat;
+  background-position: top 260px right 0px;
+  padding-left: 80px;
+}
+@media screen and (max-width: 1350px) {
+  .materials {
+    padding-left: 41px;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .materials {
+    background-position: top 160px right 0px;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .materials {
+    background-position: top 40px right 0px;
+    min-height: auto;
+  }
+}
+@media screen and (max-width: 580px) {
+  .materials {
+    background-size: 330px;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 350px) {
+  .materials {
+    background-size: 260px;
+  }
+}
+.materials .container {
+  max-width: 873px;
+  margin: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 128px;
+}
+@media screen and (max-width: 1210px) {
+  .materials .container {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .materials .container {
+    max-width: 556px;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .materials .container {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 560px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .materials .container {
+    padding-top: 419px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .materials .container {
+    padding-top: 350px;
+  }
+}
+.materials .container .text .title {
+  color: #E58411;
+  font-family: Gilroy-SemiBold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  text-transform: uppercase;
+}
+.materials .container .text h2 {
+  padding-top: 20px;
+  max-width: 413px;
+  color: #1E1E1E;
+  font-family: Gilroy-Bold;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 1010px) {
+  .materials .container .text h2 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 638px) {
+  .materials .container .text h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 416px) {
+  .materials .container .text h2 {
+    font-size: 20px;
+  }
+}
+.materials .container .text p {
+  padding-top: 20px;
+  max-width: 556px;
+  color: #1E1E1E;
+  font-family: Gilroy-Regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+  /* 33.3px */
+}
+.materials .container .text .more_info {
+  padding-top: 24px;
+  text-decoration: none;
+  padding-top: 14px;
+  color: #E58411;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+}
+.materials .container .text .more_info:after {
+  display: inline-block;
+  content: "";
+  background-image: url(../img/arrow_back.png);
+  width: 48px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 13px;
+}
+.materials .container .images {
+  text-align: end;
+}
+@media screen and (max-width: 1405px) {
+  .materials .container .images {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .materials .container .images {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 526px) {
+  .materials .container .images {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.materials .container .images img {
+  max-width: 223px;
+}
+.materials .container .images img:last-of-type {
+  padding-top: 47px;
+}
+
+.clients {
+  background-color: #FFF;
+  padding-top: 260px;
+  padding-bottom: 260px;
+}
+@media screen and (max-width: 428px) {
+  .clients {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.clients p {
+  color: #E58411;
+  text-align: center;
+  font-family: Gilroy-SemiBold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  text-transform: uppercase;
+}
+.clients h2 {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.clients .owl-carousel {
+  position: relative;
+}
+.clients .owl-carousel .background {
+  background-image: url("../img/background_carousel_1.png");
+  background-repeat: no-repeat;
+  max-width: 370px;
+  margin: auto;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background {
+    max-width: 280px;
+    background-size: 280px;
+  }
+}
+.clients .owl-carousel .background .review {
+  padding-bottom: 35px;
+  background-image: url("../img/review_1.png");
+  background-repeat: no-repeat;
+  background-position: bottom 18px left 18px;
+  min-height: 476px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background .review {
+    background-size: 250px;
+    min-height: 365px;
+    background-position: bottom 15px left 15px;
+  }
+}
+.clients .owl-carousel .background .review div {
+  text-align: center;
+}
+.clients .owl-carousel .background .review div .user {
+  max-width: 50px;
+  margin: auto;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background .review div .user {
+    max-width: 30px;
+  }
+}
+.clients .owl-carousel .background .review div h4 {
+  padding-top: 10px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background .review div h4 {
+    padding-top: 0;
+  }
+}
+.clients .owl-carousel .background .review div .text_info_1 {
+  padding-top: 6px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.clients .owl-carousel .background .review div .text_info_2 {
+  padding-top: 22px;
+  max-width: 252px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background .review div .text_info_2 {
+    padding-top: 10px;
+    max-width: 230px;
+    font-size: 12px;
+  }
+}
+.clients .owl-carousel .background .review div .stars {
+  padding-top: 6px;
+  display: flex;
+  justify-content: center;
+}
+.clients .owl-carousel .background .review div .stars .star {
+  max-width: 18px;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background .review div .stars .star {
+    max-width: 10px;
+  }
+}
+.clients .owl-carousel .background_2 {
+  background-image: url("../img/background_carousel_2.png");
+  background-repeat: no-repeat;
+  max-width: 370px;
+  margin: auto;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_2 {
+    max-width: 280px;
+    background-size: 280px;
+  }
+}
+.clients .owl-carousel .background_2 .review {
+  padding-bottom: 35px;
+  background-image: url("../img/review_1.png");
+  background-repeat: no-repeat;
+  background-position: bottom 18px left 18px;
+  min-height: 476px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_2 .review {
+    background-size: 250px;
+    min-height: 365px;
+    background-position: bottom 15px left 15px;
+  }
+}
+.clients .owl-carousel .background_2 .review div {
+  text-align: center;
+}
+.clients .owl-carousel .background_2 .review div .user {
+  max-width: 50px;
+  margin: auto;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_2 .review div .user {
+    max-width: 30px;
+  }
+}
+.clients .owl-carousel .background_2 .review div h4 {
+  padding-top: 10px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_2 .review div h4 {
+    padding-top: 0;
+  }
+}
+.clients .owl-carousel .background_2 .review div .text_info_1 {
+  padding-top: 6px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_2 .review div .text_info_1 {
+    padding-top: 0px;
+  }
+}
+.clients .owl-carousel .background_2 .review div .text_info_2 {
+  padding-top: 22px;
+  max-width: 252px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_2 .review div .text_info_2 {
+    padding-top: 5px;
+    max-width: 230px;
+    font-size: 12px;
+  }
+}
+.clients .owl-carousel .background_2 .review div .stars {
+  padding-top: 6px;
+  display: flex;
+  justify-content: center;
+}
+.clients .owl-carousel .background_2 .review div .stars .star {
+  max-width: 18px;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_2 .review div .stars .star {
+    max-width: 10px;
+  }
+}
+.clients .owl-carousel .background_3 {
+  background-image: url("../img/background_carousel_3.png");
+  background-repeat: no-repeat;
+  max-width: 370px;
+  margin: auto;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_3 {
+    max-width: 280px;
+    background-size: 280px;
+  }
+}
+.clients .owl-carousel .background_3 .review {
+  padding-bottom: 35px;
+  background-image: url("../img/review_1.png");
+  background-repeat: no-repeat;
+  background-position: bottom 18px left 18px;
+  min-height: 476px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_3 .review {
+    background-size: 250px;
+    min-height: 365px;
+    background-position: bottom 15px left 15px;
+  }
+}
+.clients .owl-carousel .background_3 .review div {
+  text-align: center;
+}
+.clients .owl-carousel .background_3 .review div .user {
+  max-width: 50px;
+  margin: auto;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_3 .review div .user {
+    max-width: 30px;
+  }
+}
+.clients .owl-carousel .background_3 .review div h4 {
+  padding-top: 10px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_3 .review div h4 {
+    padding-top: 0;
+  }
+}
+.clients .owl-carousel .background_3 .review div .text_info_1 {
+  padding-top: 6px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.clients .owl-carousel .background_3 .review div .text_info_2 {
+  padding-top: 22px;
+  max-width: 252px;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_3 .review div .text_info_2 {
+    padding-top: 10px;
+    max-width: 230px;
+    font-size: 12px;
+  }
+}
+.clients .owl-carousel .background_3 .review div .stars {
+  padding-top: 6px;
+  display: flex;
+  justify-content: center;
+}
+.clients .owl-carousel .background_3 .review div .stars .star {
+  max-width: 18px;
+}
+@media screen and (max-width: 428px) {
+  .clients .owl-carousel .background_3 .review div .stars .star {
+    max-width: 10px;
+  }
+}
+.clients .owl-carousel .owl-nav.disabled {
+  display: inline-block;
+}
+.clients .owl-carousel .owl-nav button.owl-prev {
+  display: inline-block;
+  position: absolute;
+  left: -42px;
+  top: 144px;
+}
+@media screen and (max-width: 1260px) {
+  .clients .owl-carousel .owl-nav button.owl-prev {
+    left: -35px;
+  }
+}
+.clients .owl-carousel .owl-nav button.owl-prev::after {
+  display: inline-flex;
+  content: "←";
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 13px;
+  background-color: #FFF;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 99px;
+}
+.clients .owl-carousel .owl-nav button.owl-next {
+  display: inline-block;
+  position: absolute;
+  right: -27px;
+  top: 144px;
+}
+@media screen and (max-width: 1260px) {
+  .clients .owl-carousel .owl-nav button.owl-next {
+    right: -20px;
+  }
+}
+.clients .owl-carousel .owl-nav button.owl-next::after {
+  display: inline-flex;
+  content: "→";
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 13px;
+  background-color: #FFF;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 99px;
+}
+
+footer {
+  background-color: #F7F7F7;
+  padding-top: 118px;
+  padding-bottom: 58px;
+}
+@media screen and (max-width: 631px) {
+  footer {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+}
+footer .footer_info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 333px) {
+  footer .footer_info {
+    flex-direction: column;
+  }
+}
+footer .footer_info .footer_section_1 {
+  display: block;
+}
+@media screen and (max-width: 660px) {
+  footer .footer_info .footer_section_1 {
+    max-width: 600px;
+    width: 100%;
+  }
+}
+footer .footer_info .footer_section_1 h4 {
+  color: #1E1E1E;
+  font-family: Gilroy-Bold;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
+}
+footer .footer_info .footer_section_1 p {
+  padding-top: 29px;
+  color: #1E1E1E;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 24px */
+  max-width: 293px;
+}
+footer .footer_info .footer_section_2 {
+  display: block;
+  list-style: none;
+}
+@media screen and (max-width: 660px) {
+  footer .footer_info .footer_section_2 {
+    padding-top: 20px;
+  }
+}
+footer .footer_info .footer_section_2 li:first-of-type a {
+  padding-top: 0;
+  color: #F6973F;
+  font-family: DM Sans;
+  font-size: 17px;
+  line-height: normal;
+  letter-spacing: -0.232px;
+}
+footer .footer_info .footer_section_2 li a {
+  text-decoration: none;
+  padding-top: 16px;
+  color: #1E1E1E;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24px */
+}
+footer .footer_info .footer_section_4 {
+  list-style: none;
+}
+@media screen and (max-width: 660px) {
+  footer .footer_info .footer_section_4 {
+    padding-top: 20px;
+  }
+}
+footer .footer_info .footer_section_4 li:first-of-type a {
+  padding-top: 0;
+  color: #F6973F;
+  font-family: DM Sans;
+  font-size: 17px;
+  line-height: normal;
+  letter-spacing: -0.232px;
+}
+footer .footer_info .footer_section_4 li:nth-child(2) a:before {
+  display: inline-block;
+  content: "";
+  background-image: url("../img/facebook.png");
+  width: 9px;
+  height: 20px;
+  background-repeat: no-repeat;
+  padding-right: 21px;
+  background-position: left 3px top 1px;
+  vertical-align: middle;
+}
+footer .footer_info .footer_section_4 li:nth-child(3) a:before {
+  display: inline-block;
+  content: "";
+  background-image: url("../img/twitter.svg");
+  width: 20px;
+  height: 15px;
+  padding-right: 11.44px;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+footer .footer_info .footer_section_4 li:last-of-type a:before {
+  display: inline-block;
+  content: "";
+  background-image: url("../img/instagram.svg");
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+footer .footer_info .footer_section_4 li a {
+  text-decoration: none;
+  padding-top: 16px;
+  color: #1E1E1E;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24px */
+}
+footer .footer_section_3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 130px;
+}
+@media screen and (max-width: 426px) {
+  footer .footer_section_3 {
+    padding-top: 80px;
+    flex-direction: column-reverse;
+  }
+}
+footer .footer_section_3 .Copyright {
+  color: #1E2833;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.205px;
+  opacity: 0.5;
+}
+@media screen and (max-width: 415px) {
+  footer .footer_section_3 .Copyright {
+    padding-top: 9px;
+  }
+}
+footer .footer_section_3 .footer_section_5 {
+  display: flex;
+  gap: 40px;
+}
+footer .footer_section_3 .footer_section_5 p {
+  color: #1E1E1E;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 24px */
 }/*# sourceMappingURL=proproc.css.map */
