@@ -1,3 +1,56 @@
+$font_color:#1E1E1E;
+
+
+
+@font-face {
+    font-family: 'gilroymedium';
+    src: url('../fonts/gilroy-medium-webfont.eot');
+    src: url('../fonts/gilroy-medium-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-medium-webfont.woff') format('woff'),
+         url('../fonts/gilroy-medium-webfont.ttf') format('truetype'),
+         url('../fonts/gilroy-medium-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroybold';
+    src: url('../fonts/gilroy-bold-webfont.eot');
+    src: url('../fonts/gilroy-bold-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-bold-webfont.woff') format('woff'),
+         url('../fonts/gilroy-bold-webfont.ttf') format('truetype'),
+         url('../fonts/gilroy-bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroyregular';
+    src: url('../fonts/gilroy-regular-webfont.eot');
+    src: url('../fonts/gilroy-regular-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-regular-webfont.woff') format('woff'),
+         url('../fonts/gilroy-regular-webfont.ttf') format('truetype'),
+         url('../fonts/gilroy-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroysemibold';
+    src: url('../fonts/gilroy-semibold-webfont.eot');
+    src: url('../fonts/gilroy-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-semibold-webfont.woff') format('woff'),
+         url('../fonts/gilroy-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/gilroy-semibold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// font-family: 'DM Sans', sans-serif;
+// font-family: 'Inter', sans-serif;
+
+
+
 @mixin max-screen($res) {
     @media screen and (max-width: $res) {
         @content;
@@ -140,7 +193,7 @@ header {
             a {
                 color: #FFF;
 
-                font-family: Gilroy-Medium;
+                font-family: 'gilroymedium';
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
@@ -954,7 +1007,7 @@ header {
     h1 {
         color: #FFF;
         text-align: center;
-        font-family: Gilroy-Bold;
+        font-family: 'gilroybold';
         font-size: 80px;
         font-style: normal;
         font-weight: 400;
@@ -988,7 +1041,7 @@ header {
         padding-top: 14px;
         color: #FFF;
         text-align: center;
-        font-family: Gilroy-Regular;
+        font-family: 'gilroyregular';
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1028,7 +1081,7 @@ header {
 
         p {
             color: #FFF;
-            font-family: Gilroy-Regular;
+            font-family: 'gilroyregular';
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
@@ -1088,8 +1141,8 @@ header {
 
     h2 {
         max-width: 242px;
-        color: #1E1E1E;
-        font-family: Gilroy-Bold;
+        color: $font_color;
+        font-family: 'gilroybold';
         font-size: 42px;
         font-style: normal;
         font-weight: 400;
@@ -1111,8 +1164,8 @@ header {
         }
         
         h4 {
-            color: #1E1E1E;
-            font-family: Gilroy-Bold;
+            color: $font_color;
+            font-family: 'gilroybold';
             font-size: 24px;
             font-style: normal;
             font-weight: 400;
@@ -1122,8 +1175,8 @@ header {
         p {
             padding-top: 20px;
             max-width: 284px;
-            color: #1E1E1E;
-            font-family: Gilroy-Regular;
+            color: $font_color;
+            font-family: 'gilroyregular';
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -1135,7 +1188,7 @@ header {
             text-decoration: none;
             padding-top: 14px;
             color: #E58411;
-            font-family: Gilroy-Medium;
+            font-family: 'gilroymedium';
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1170,7 +1223,7 @@ header {
         display: block;
         padding-top: 60px;
         color: #E58411;
-        font-family: Gilroy-Medium;
+        font-family: 'gilroymedium';
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -1194,8 +1247,8 @@ header {
     h2 {
         padding-top: 50px;
         padding-bottom: 32px;
-        color: #1E1E1E;
-        font-family: Gilroy-Bold;
+        color: $font_color;
+        font-family: 'gilroybold';
         font-size: 42px;
         font-style: normal;
         font-weight: 400;
@@ -1225,8 +1278,8 @@ header {
 
             a {
                 text-decoration: none;
-                color: #1E1E1E;
-                font-family: Gilroy-Medium;
+                color: $font_color;
+                font-family: 'gilroymedium';
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
@@ -1256,7 +1309,7 @@ header {
             h4 {
                 padding-top: 6px;
                 color: #0D1B39;
-                font-family: Inter;
+                font-family: 'Inter', sans-serif;
                 font-size: 21.325px;
                 font-style: normal;
                 font-weight: 600;
@@ -1274,7 +1327,7 @@ header {
 
             p {
                 color: #8D8D8D;
-                font-family: Inter;
+                font-family: 'Inter', sans-serif;
                 font-size: 16.755px;
                 font-style: normal;
                 font-weight: 400;
@@ -1284,7 +1337,7 @@ header {
             .price {
                 padding-top: 48px;
                 color: #0D1B39;
-                font-family: Inter;
+                font-family: 'Inter', sans-serif;
                 font-size: 21.325px;
                 font-style: normal;
                 font-weight: 600;
@@ -1358,7 +1411,7 @@ header {
 
                     margin-left: 13px;
                     background-color: #FFF;
-                    font-family: Gilroy-Medium;
+                    font-family: 'gilroymedium';
                     font-size: 20px;
 
                     font-weight: 600;
@@ -1387,7 +1440,7 @@ header {
 
                     margin-left: 13px;
                     background-color: #FFF;
-                    font-family: Gilroy-Medium;
+                    font-family: 'gilroymedium';
                     font-size: 20px;
 
                     font-weight: 600;
@@ -1449,7 +1502,7 @@ header {
 
         .title {
             color: #E58411;
-            font-family: Gilroy-SemiBold;
+            font-family:  'gilroysemibold';
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
@@ -1462,8 +1515,8 @@ header {
         h2 {
             max-width: 413px;
             padding-top: 20px;
-            color: #1E1E1E;
-            font-family: Gilroy-Bold;
+            color: $font_color;
+            font-family: 'gilroybold';
             font-size: 42px;
             font-style: normal;
             font-weight: 400;
@@ -1484,8 +1537,8 @@ header {
 
         p {
             padding-top: 20px;
-            color: #1E1E1E;
-            font-family: Gilroy-Regular;
+            color: $font_color;
+            font-family: 'gilroyregular';
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
@@ -1499,7 +1552,7 @@ header {
             text-decoration: none;
             padding-top: 14px;
             color: #E58411;
-            font-family: Gilroy-Medium;
+            font-family: 'gilroymedium';
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1574,7 +1627,7 @@ header {
         .text {
             .title {
                 color: #E58411;
-                font-family: Gilroy-SemiBold;
+                font-family:  'gilroysemibold';
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
@@ -1587,8 +1640,8 @@ header {
             h2 {
                 padding-top: 20px;
                 max-width: 413px;
-                color: #1E1E1E;
-                font-family: Gilroy-Bold;
+                color: $font_color;
+                font-family: 'gilroybold';
                 font-size: 42px;
                 font-style: normal;
                 font-weight: 400;
@@ -1610,8 +1663,8 @@ header {
             p {
                 padding-top: 20px;
                 max-width: 556px;
-                color: #1E1E1E;
-                font-family: Gilroy-Regular;
+                color: $font_color;
+                font-family: 'gilroyregular';
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
@@ -1624,7 +1677,7 @@ header {
                 text-decoration: none;
                 padding-top: 14px;
                 color: #E58411;
-                font-family: Gilroy-Medium;
+                font-family: 'gilroymedium';
                 font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
@@ -1689,7 +1742,7 @@ header {
     p {
         color: #E58411;
         text-align: center;
-        font-family: Gilroy-SemiBold;
+        font-family:  'gilroysemibold';
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -1701,9 +1754,9 @@ header {
     h2 {
         padding-top: 20px;
         padding-bottom: 60px;
-        color: #1E1E1E;
+        color: $font_color;
         text-align: center;
-        font-family: Gilroy-Bold;
+        font-family: 'gilroybold';
         font-size: 42px;
         font-style: normal;
         font-weight: 400;
@@ -1755,9 +1808,9 @@ header {
 
                     h4 {
                         padding-top: 10px;
-                        color: #1E1E1E;
+                        color: $font_color;
                         text-align: center;
-                        font-family: Gilroy-Bold;
+                        font-family: 'gilroybold';
                         font-size: 18px;
                         font-style: normal;
                         font-weight: 400;
@@ -1771,9 +1824,9 @@ header {
 
                     .text_info_1 {
                         padding-top: 6px;
-                        color: #1E1E1E;
+                        color: $font_color;
                         text-align: center;
-                        font-family: Gilroy-Regular;
+                        font-family: 'gilroyregular';
                         font-size: 12px;
                         font-style: normal;
                         font-weight: 400;
@@ -1783,9 +1836,9 @@ header {
                     .text_info_2 {
                         padding-top: 22px;
                         max-width: 252px;
-                        color: #1E1E1E;
+                        color: $font_color;
                         text-align: center;
-                        font-family: Gilroy-Regular;
+                        font-family: 'gilroyregular';
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -1853,10 +1906,10 @@ header {
                     }
 
                     h4 {
-                        padding-top: 10px;
-                        color: #1E1E1E;
+                       
+                        color: $font_color;
                         text-align: center;
-                        font-family: Gilroy-Bold;
+                        font-family: 'gilroybold';
                         font-size: 18px;
                         font-style: normal;
                         font-weight: 400;
@@ -1870,9 +1923,9 @@ header {
 
                     .text_info_1 {
                         padding-top: 6px;
-                        color: #1E1E1E;
+                        color: $font_color;
                         text-align: center;
-                        font-family: Gilroy-Regular;
+                        font-family: 'gilroyregular';
                         font-size: 12px;
                         font-style: normal;
                         font-weight: 400;
@@ -1885,17 +1938,17 @@ header {
                     }
 
                     .text_info_2 {
-                        padding-top: 22px;
+                        padding-top: 12px;
                         max-width: 252px;
-                        color: #1E1E1E;
+                        color: $font_color;
                         text-align: center;
-                        font-family: Gilroy-Regular;
+                        font-family: 'gilroyregular';
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
                         line-height: normal;
                         @include max-screen(428px){
-                            padding-top: 5px;
+                            padding-top: 0px;
                             max-width: 230px;
                             font-size: 12px;
                         
@@ -1958,9 +2011,9 @@ header {
 
                     h4 {
                         padding-top: 10px;
-                        color: #1E1E1E;
+                        color: $font_color;
                         text-align: center;
-                        font-family: Gilroy-Bold;
+                        font-family: 'gilroybold';
                         font-size: 18px;
                         font-style: normal;
                         font-weight: 400;
@@ -1974,9 +2027,9 @@ header {
 
                     .text_info_1 {
                         padding-top: 6px;
-                        color: #1E1E1E;
+                        color: $font_color;
                         text-align: center;
-                        font-family: Gilroy-Regular;
+                        font-family: 'gilroyregular';
                         font-size: 12px;
                         font-style: normal;
                         font-weight: 400;
@@ -1986,9 +2039,9 @@ header {
                     .text_info_2 {
                         padding-top: 22px;
                         max-width: 252px;
-                        color: #1E1E1E;
+                        color: $font_color;
                         text-align: center;
-                        font-family: Gilroy-Regular;
+                        font-family: 'gilroyregular';
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -2045,7 +2098,7 @@ header {
 
                     margin-left: 13px;
                     background-color: #FFF;
-                    font-family: Gilroy-Medium;
+                    font-family: 'gilroymedium';
                     font-size: 20px;
 
                     font-weight: 600;
@@ -2073,7 +2126,7 @@ header {
 
                     margin-left: 13px;
                     background-color: #FFF;
-                    font-family: Gilroy-Medium;
+                    font-family: 'gilroymedium';
                     font-size: 20px;
 
                     font-weight: 600;
@@ -2112,8 +2165,8 @@ footer {
                
             }
             h4 {
-                color: #1E1E1E;
-                font-family: Gilroy-Bold;
+                color: $font_color;
+                font-family: 'gilroybold';
                 font-size: 28px;
                 font-style: normal;
                 font-weight: 400;
@@ -2124,8 +2177,8 @@ footer {
 
             p {
                 padding-top: 29px;
-                color: #1E1E1E;
-                font-family: Gilroy-Medium;
+                color: $font_color;
+                font-family: 'gilroymedium';
                 font-size: 15px;
                 font-style: normal;
                 font-weight: 400;
@@ -2145,7 +2198,7 @@ footer {
                 &:first-of-type a{
                     padding-top: 0;
                      color: #F6973F;
-                 font-family: DM Sans;
+                 font-family: 'DM Sans', sans-serif;
                  font-size: 17px;
                  
                  line-height: normal;
@@ -2154,7 +2207,7 @@ footer {
                 a{
                     text-decoration: none;
                 padding-top: 16px;
-                color: #1E1E1E;
+                color: $font_color;
 font-family: Gilroy-Medium;
 font-size: 15px;
 font-style: normal;
@@ -2174,7 +2227,7 @@ line-height: 160%; /* 24px */
                 &:first-of-type a{
                     padding-top: 0;
                      color: #F6973F;
-                 font-family: DM Sans;
+                 font-family: 'DM Sans', sans-serif;
                  font-size: 17px;
                  
                  line-height: normal;
@@ -2220,8 +2273,8 @@ line-height: 160%; /* 24px */
                 a{
                     text-decoration: none;
                 padding-top: 16px;
-                color: #1E1E1E;
-font-family: Gilroy-Medium;
+                color: $font_color;
+font-family: 'gilroymedium';
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
@@ -2244,7 +2297,7 @@ line-height: 160%; /* 24px */
         }
         .Copyright{
             color: #1E2833;
-font-family: DM Sans;
+font-family: 'DM Sans', sans-serif;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
@@ -2259,8 +2312,8 @@ opacity: 0.5;
             display: flex;
             gap: 40px;
             p{
-                color: #1E1E1E;
-font-family: Gilroy-Medium;
+                color: $font_color;
+font-family: 'gilroymedium';
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
