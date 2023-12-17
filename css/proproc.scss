@@ -224,6 +224,10 @@ header {
                     display: block;
                     text-align: center;
                     font-size: 0.9rem;
+                    @include max-screen(527px){
+                        font-size: 12px;
+                        letter-spacing: 0px;
+                    }
 
 
                     &:after {
