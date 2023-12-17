@@ -163,7 +163,7 @@ header ul li a .arrow_bottom {
     position: relative;
     top: 46%;
     text-transform: uppercase;
-    font-family: "Work sans", sans-serif;
+    font-family: "gilroymedium";
     font-weight: 300;
     letter-spacing: 4px;
     text-decoration: none;
@@ -436,7 +436,7 @@ header .animate-out-middle-bar {
 }
 @media screen and (max-width: 750px) {
   header .home a {
-    font-family: "Work Sans", sans-serif;
+    font-family: "gilroymedium";
     color: black;
     font-weight: 300;
     font-size: 12px;
