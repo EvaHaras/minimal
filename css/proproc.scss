@@ -1,4 +1,4 @@
-$font_color:#1E1E1E;
+$font_color: #1E1E1E;
 
 
 
@@ -6,9 +6,9 @@ $font_color:#1E1E1E;
     font-family: 'gilroymedium';
     src: url('../fonts/gilroy-medium-webfont.eot');
     src: url('../fonts/gilroy-medium-webfont.woff2') format('woff2'),
-         url('../fonts/gilroy-medium-webfont.woff') format('woff'),
-         url('../fonts/gilroy-medium-webfont.ttf') format('truetype'),
-         url('../fonts/gilroy-medium-webfont.svg') format('svg');
+        url('../fonts/gilroy-medium-webfont.woff') format('woff'),
+        url('../fonts/gilroy-medium-webfont.ttf') format('truetype'),
+        url('../fonts/gilroy-medium-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,9 +17,9 @@ $font_color:#1E1E1E;
     font-family: 'gilroybold';
     src: url('../fonts/gilroy-bold-webfont.eot');
     src: url('../fonts/gilroy-bold-webfont.woff2') format('woff2'),
-         url('../fonts/gilroy-bold-webfont.woff') format('woff'),
-         url('../fonts/gilroy-bold-webfont.ttf') format('truetype'),
-         url('../fonts/gilroy-bold-webfont.svg') format('svg');
+        url('../fonts/gilroy-bold-webfont.woff') format('woff'),
+        url('../fonts/gilroy-bold-webfont.ttf') format('truetype'),
+        url('../fonts/gilroy-bold-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,9 +28,9 @@ $font_color:#1E1E1E;
     font-family: 'gilroyregular';
     src: url('../fonts/gilroy-regular-webfont.eot');
     src: url('../fonts/gilroy-regular-webfont.woff2') format('woff2'),
-         url('../fonts/gilroy-regular-webfont.woff') format('woff'),
-         url('../fonts/gilroy-regular-webfont.ttf') format('truetype'),
-         url('../fonts/gilroy-regular-webfont.svg') format('svg');
+        url('../fonts/gilroy-regular-webfont.woff') format('woff'),
+        url('../fonts/gilroy-regular-webfont.ttf') format('truetype'),
+        url('../fonts/gilroy-regular-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -39,9 +39,9 @@ $font_color:#1E1E1E;
     font-family: 'gilroysemibold';
     src: url('../fonts/gilroy-semibold-webfont.eot');
     src: url('../fonts/gilroy-semibold-webfont.woff2') format('woff2'),
-         url('../fonts/gilroy-semibold-webfont.woff') format('woff'),
-         url('../fonts/gilroy-semibold-webfont.ttf') format('truetype'),
-         url('../fonts/gilroy-semibold-webfont.svg') format('svg');
+        url('../fonts/gilroy-semibold-webfont.woff') format('woff'),
+        url('../fonts/gilroy-semibold-webfont.ttf') format('truetype'),
+        url('../fonts/gilroy-semibold-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -78,7 +78,8 @@ $font_color:#1E1E1E;
 .container {
     max-width: 1200px;
     margin: auto;
-    @include max-screen(1200px){
+
+    @include max-screen(1200px) {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -86,6 +87,7 @@ $font_color:#1E1E1E;
 
 body {
     background-color: rgba(238, 250, 255, 0.30);
+
 }
 
 header {
@@ -131,17 +133,20 @@ header {
         @include max-screen(1200px) {
             padding: 20px 15px;
         }
+
         @include max-screen(1000px) {
             padding: 15px 15px;
         }
     }
-    .logo{
-        img{
+
+    .logo {
+        img {
             max-width: 50px;
         }
     }
-    .bag{
-        img{
+
+    .bag {
+        img {
             max-width: 20px;
         }
     }
@@ -163,6 +168,14 @@ header {
         }
     }
 
+
+
+
+
+
+
+
+
     ul {
         display: flex;
         list-style: none;
@@ -178,6 +191,86 @@ header {
             list-style: none;
         }
 
+        #my-drop-down-menu ul {
+            list-style: none;
+            border: 1px solid black;
+
+        }
+
+        ul#my-drop-down-menu {
+            list-style: none;
+        }
+
+        #my-drop-down-menu {
+            position: relative;
+            /* (!) */
+            z-index: 3;
+
+            li.list {
+
+                display: flex;
+                /* (!) */
+                margin-right: 65px;
+                border: none;
+
+            }
+
+            a {
+
+                text-decoration: none;
+            }
+
+            ul.child {
+                background: #293036;
+                ;
+                padding: 5px;
+                position: absolute;
+                /* (!) */
+                top: 60px;
+                /* (!) */
+                left: -9999px;
+                /* (!) */
+                z-index: 3;
+                border-top: 1px solid black;
+                -moz-box-shadow: 0px 3px 7px #293036;
+                ;
+                -webkit-box-shadow: 0px 3px 7px #293036;
+                ;
+                box-shadow: 0px 3px 7px #293036;
+                ;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                max-width: 100%;
+
+                max-width: 400px;
+                width: 100%;
+                min-height: 145px;
+            }
+
+            li {
+                margin-right: 0;
+                width: 100%;
+                padding: 15px;
+                border: 1px solid black;
+
+                &:hover {
+                    ul.child {
+                        left: auto;
+                        /* (!) */
+                    }
+
+                }
+            }
+
+            a.link {
+                display: block;
+
+            }
+
+        }
+
         li {
             text-align: center;
 
@@ -188,7 +281,16 @@ header {
                 height: 100%;
                 overflow: hidden;
                 transform: translateY(-100%);
+
+
+
+
+
+
+
+
             }
+
 
             a {
                 color: #FFF;
@@ -224,7 +326,8 @@ header {
                     display: block;
                     text-align: center;
                     font-size: 0.9rem;
-                    @include max-screen(527px){
+
+                    @include max-screen(527px) {
                         font-size: 12px;
                         letter-spacing: 0px;
                     }
@@ -265,7 +368,7 @@ header {
             }
 
             &:first-of-type {
-                margin-right: 65px;
+
 
                 @include max-screen(750px) {
                     background-color: #212327;
@@ -370,13 +473,15 @@ header {
             width: 34px;
             display: block;
             cursor: pointer;
-            @include max-screen(638px){
+
+            @include max-screen(638px) {
                 top: 8px;
             }
-            @include max-screen(434px){
+
+            @include max-screen(434px) {
                 width: 22px;
             }
-            
+
 
             span {
                 display: block;
@@ -384,7 +489,8 @@ header {
                 background-color: white;
                 cursor: pointer;
                 margin-top: 8px;
-                @include max-screen(434px){
+
+                @include max-screen(434px) {
                     margin-top: 5px;
                 }
             }
@@ -588,66 +694,84 @@ header {
     background-repeat: no-repeat;
 
     background-position: center;
-    @include screen(280px, 319px){
+
+    @include screen(280px, 319px) {
         min-height: 193px;
     }
-    @include screen(320px, 351px){
+
+    @include screen(320px, 351px) {
         min-height: 238px;
     }
-    @include screen(352px, 374px){
+
+    @include screen(352px, 374px) {
         min-height: 263px;
     }
-    @include screen(375px, 392px){
+
+    @include screen(375px, 392px) {
         min-height: 279px;
     }
-    @include screen(393px, 399px){
+
+    @include screen(393px, 399px) {
         min-height: 293px;
     }
-    @include screen(400px, 413px){
+
+    @include screen(400px, 413px) {
         min-height: 298px;
     }
-    @include screen(414px, 429px){
+
+    @include screen(414px, 429px) {
         min-height: 312px;
     }
-    @include screen(430px, 479px){
+
+    @include screen(430px, 479px) {
         min-height: 334px;
     }
-    @include screen(480px, 639px){
+
+    @include screen(480px, 639px) {
         min-height: 356px;
     }
-    @include screen(640px, 767px){
+
+    @include screen(640px, 767px) {
         min-height: 475px;
     }
-    @include screen(768px, 799px){
+
+    @include screen(768px, 799px) {
         min-height: 583px;
     }
-    @include screen(800px,819px){
+
+    @include screen(800px, 819px) {
         min-height: 601px;
     }
-    @include screen(820px, 833px){
+
+    @include screen(820px, 833px) {
         min-height: 621px;
     }
-    @include screen(834px, 854px){
+
+    @include screen(834px, 854px) {
         min-height: 628px;
     }
-    @include screen(855px, 959px){
+
+    @include screen(855px, 959px) {
         min-height: 644px;
     }
-    @include screen(960px, 991px){
+
+    @include screen(960px, 991px) {
         min-height: 720px;
     }
-    @include screen(992px, 1023px){
+
+    @include screen(992px, 1023px) {
         min-height: 749px;
     }
 
-    @include screen(1024px, 1151px){
+    @include screen(1024px, 1151px) {
         min-height: 762px;
     }
-    @include screen(1152px, 1199px){
+
+    @include screen(1152px, 1199px) {
         min-height: 876px;
     }
 
-    @include screen(1200px, 1279px){
+    @include screen(1200px, 1279px) {
         min-height: 905px;
     }
 
@@ -700,16 +824,17 @@ header {
                 @include max-screen(992px) {
                     display: none;
                 }
-               
 
-                @include screen(1024px, 1151px){
+
+                @include screen(1024px, 1151px) {
                     bottom: 160px;
                 }
-                @include screen(1152px, 1199px){
+
+                @include screen(1152px, 1199px) {
                     bottom: 192px;
                 }
-            
-                @include screen(1200px, 1279px){
+
+                @include screen(1200px, 1279px) {
                     bottom: 198px;
                 }
 
@@ -760,13 +885,13 @@ header {
                 @include max-screen(992px) {
                     display: none;
                 }
-               
-                @include screen(1024px, 1151px){
+
+                @include screen(1024px, 1151px) {
                     bottom: 189px;
                     max-width: 25px;
                 }
-    
-                @include screen(1152px, 1199px){
+
+                @include screen(1152px, 1199px) {
                     bottom: 216px;
                     max-width: 30px;
                 }
@@ -817,14 +942,15 @@ header {
                 @include max-screen(992px) {
                     display: none;
                 }
-                @include screen(1024px, 1151px){
-                   bottom: 215px;
-                   max-width: 25px;
+
+                @include screen(1024px, 1151px) {
+                    bottom: 215px;
+                    max-width: 25px;
                 }
-    
-                @include screen(1152px, 1199px){
+
+                @include screen(1152px, 1199px) {
                     bottom: 246px;
-                   
+
                 }
 
                 @include screen(1200px, 1279px) {
@@ -875,14 +1001,15 @@ header {
                 @include max-screen(992px) {
                     display: none;
                 }
-                @include screen(1024px, 1151px){
-                   bottom: 310px;
-                 }
-     
-                 @include screen(1152px, 1199px){
+
+                @include screen(1024px, 1151px) {
+                    bottom: 310px;
+                }
+
+                @include screen(1152px, 1199px) {
                     bottom: 358px;
-                    
-                 }
+
+                }
 
                 @include screen(1200px, 1239px) {
                     bottom: 374px;
@@ -931,18 +1058,19 @@ header {
                 @include max-screen(992px) {
                     display: none;
                 }
-                @include screen(1024px, 1151px){
+
+                @include screen(1024px, 1151px) {
                     max-width: 40px;
                     bottom: 254px;
                     left: 20%;
-                  }
-      
-                  @include screen(1152px, 1199px){
+                }
+
+                @include screen(1152px, 1199px) {
                     max-width: 40px;
                     bottom: 296px;
                     left: 19.5%;
-                     
-                  }
+
+                }
 
                 @include screen(1200px, 1239px) {
                     bottom: 293px;
@@ -991,12 +1119,14 @@ header {
         max-width: 861px;
         padding-top: 161px;
         text-align: center;
-        @include max-screen(1200px){
+
+        @include max-screen(1200px) {
             max-width: 1000px;
             padding-top: 60px;
         }
-        @include max-screen(370px){
-            
+
+        @include max-screen(370px) {
+
             padding-top: 45px;
         }
 
@@ -1004,7 +1134,7 @@ header {
             padding-top: 101px;
         }
 
-     
+
     }
 
     h1 {
@@ -1021,21 +1151,25 @@ header {
 
         @include max-screen(1200px) {
             font-size: 70px;
-            
+
         }
+
         @include max-screen(1110px) {
             font-size: 55px;
         }
+
         @include max-screen(960px) {
             font-size: 40px;
         }
+
         @include max-screen(638px) {
             font-size: 30px;
         }
-        @include max-screen(416px){
+
+        @include max-screen(416px) {
             font-size: 24px;
         }
-       
+
     }
 
     .search {
@@ -1051,12 +1185,15 @@ header {
         line-height: 160%;
         /* 38.4px */
         padding-bottom: 45px;
+
         @include max-screen(775px) {
             padding-bottom: 11px;
         }
+
         @include max-screen(638px) {
             font-size: 12px;
         }
+
         @include max-screen(370px) {
             padding: 0;
         }
@@ -1073,16 +1210,18 @@ header {
         padding: 8px 8px 8px 20px;
         border-radius: 42px;
         text-decoration: none;
-        @include max-screen(760px){
+
+        @include max-screen(760px) {
             background-color: rgba(0, 0, 0, 0.195);
         }
-        @include max-screen(638px) {
-          padding: 5px 5px 5px 10px;
-          max-width: 250px;
-        }
-       
 
-        p {
+        @include max-screen(638px) {
+            padding: 5px 5px 5px 10px;
+            max-width: 250px;
+        }
+
+
+        input {
             color: #FFF;
             font-family: 'gilroyregular';
             font-size: 18px;
@@ -1090,17 +1229,23 @@ header {
             font-weight: 400;
             line-height: 150%;
             text-align: left;
+            background: transparent;
+            border: none;
+            outline: none;
+
             @include max-screen(638px) {
                 font-size: 14px;
             }
         }
 
+
         img {
             max-width: 40px;
             max-height: 40px;
+
             @include max-screen(638px) {
-               max-width: 30px;
-               max-height: 30px;
+                max-width: 30px;
+                max-height: 30px;
             }
         }
     }
@@ -1111,10 +1256,12 @@ header {
 .why_choosing_us {
     padding-top: 120px;
     background-color: #FFF;
-    @include max-screen(850px){
+
+    @include max-screen(850px) {
         padding-top: 60px;
     }
-    @include max-screen(590px){
+
+    @include max-screen(590px) {
         padding-top: 40px
     }
 
@@ -1125,19 +1272,22 @@ header {
         align-items: center;
         padding-bottom: 120px;
         flex-wrap: wrap;
-        @include max-screen(850px){
+
+        @include max-screen(850px) {
             padding-bottom: 60px;
         }
-        @include screen(834px, 608px){
-          justify-content: space-around;
-          
+
+        @include screen(834px, 608px) {
+            justify-content: space-around;
+
         }
-        @include max-screen(598px){
+
+        @include max-screen(598px) {
             justify-content: center;
             flex-direction: column;
             padding-bottom: 40px;
         }
-        
+
 
 
     }
@@ -1150,7 +1300,8 @@ header {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        @include max-screen(1124px){
+
+        @include max-screen(1124px) {
             max-width: 1124px;
             width: 100%;
             padding-bottom: 40px;
@@ -1159,13 +1310,14 @@ header {
     }
 
     .information {
-        @include max-screen(834px){
+        @include max-screen(834px) {
             padding-top: 20px;
         }
-        @include max-screen(590px){
+
+        @include max-screen(590px) {
             padding-top: 35px;
         }
-        
+
         h4 {
             color: $font_color;
             font-family: 'gilroybold';
@@ -1287,11 +1439,13 @@ header {
                 font-style: normal;
                 font-weight: 400;
                 line-height: 185%;
+
                 /* 33.3px */
-                @include max-screen(350px){
+                @include max-screen(350px) {
                     font-size: 14px;
                 }
-                @include max-screen(300px){
+
+                @include max-screen(300px) {
                     font-size: 12px;
                 }
             }
@@ -1305,6 +1459,7 @@ header {
         .product {
             max-width: 268px;
             margin: auto;
+
             .chair {
                 height: 300px;
             }
@@ -1384,6 +1539,7 @@ header {
             }
 
         }
+
         owl-carousel.owl-loaded {
             margin: auto;
         }
@@ -1399,7 +1555,8 @@ header {
                 position: absolute;
                 left: -46px;
                 top: 236px;
-                @include max-screen(1281px){
+
+                @include max-screen(1281px) {
                     left: -20px;
                 }
 
@@ -1428,7 +1585,8 @@ header {
                 position: absolute;
                 right: -9px;
                 top: 236px;
-                @include max-screen(1281px){
+
+                @include max-screen(1281px) {
                     right: 0px;
                 }
 
@@ -1465,47 +1623,56 @@ header {
     background-repeat: no-repeat;
     background-position: top 306px left -20px;
     padding-right: 141px;
-    @include max-screen(1350px){
+
+    @include max-screen(1350px) {
         padding-right: 41px;
     }
-    @include max-screen(1210px){
+
+    @include max-screen(1210px) {
         background-position: top 160px left -20px;
     }
-    @include max-screen(1010px){
+
+    @include max-screen(1010px) {
         background-position: top 40px left -20px;
         min-height: auto;
     }
-    @include max-screen(580px){
+
+    @include max-screen(580px) {
         background-size: 350px;
         padding-right: 0;
     }
-    @include max-screen(350px){
+
+    @include max-screen(350px) {
         background-size: 280px;
     }
-   
+
     .container {
         max-width: 556px;
         margin: inherit;
         padding-top: 323px;
-        @include max-screen(1210px){
-        padding-top: 160px;
-        max-width: 375px;
-    }
-    @include max-screen(1010px){
-        padding-top: 500px;
-        max-width: 556px;
-        text-align: end;
-    }
-    @include max-screen(580px){
-        padding-top: 330px;
-    }
-    @include max-screen(350px){
-        padding-top: 270px;
-    }
+
+        @include max-screen(1210px) {
+            padding-top: 160px;
+            max-width: 375px;
+        }
+
+        @include max-screen(1010px) {
+            padding-top: 500px;
+            max-width: 556px;
+            text-align: end;
+        }
+
+        @include max-screen(580px) {
+            padding-top: 330px;
+        }
+
+        @include max-screen(350px) {
+            padding-top: 270px;
+        }
 
         .title {
             color: #E58411;
-            font-family:  'gilroysemibold';
+            font-family: 'gilroysemibold';
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
@@ -1525,17 +1692,19 @@ header {
             font-weight: 400;
             line-height: normal;
             text-transform: capitalize;
-           
-            @include max-screen(1010px){
-               
-                max-width:100%;}
-                
-                @include max-screen(638px) {
-                    font-size: 30px;
-                }
-                @include max-screen(416px){
-                    font-size: 20px;
-                }
+
+            @include max-screen(1010px) {
+
+                max-width: 100%;
+            }
+
+            @include max-screen(638px) {
+                font-size: 30px;
+            }
+
+            @include max-screen(416px) {
+                font-size: 20px;
+            }
         }
 
         p {
@@ -1581,21 +1750,26 @@ header {
     background-position: top 260px right 0px;
 
     padding-left: 80px;
-    @include max-screen(1350px){
+
+    @include max-screen(1350px) {
         padding-left: 41px;
     }
-    @include max-screen(1210px){
+
+    @include max-screen(1210px) {
         background-position: top 160px right 0px;
     }
-    @include max-screen(1010px){
+
+    @include max-screen(1010px) {
         background-position: top 40px right 0px;
         min-height: auto;
     }
-    @include max-screen(580px){
+
+    @include max-screen(580px) {
         background-size: 330px;
         padding-left: 0;
     }
-    @include max-screen(350px){
+
+    @include max-screen(350px) {
         background-size: 260px;
     }
 
@@ -1606,31 +1780,36 @@ header {
         justify-content: space-between;
         align-items: center;
         padding-top: 128px;
-        @include max-screen(1210px){
+
+        @include max-screen(1210px) {
             padding-top: 0;
-            
+
         }
-        @include max-screen(1200px){
-            
+
+        @include max-screen(1200px) {
+
             max-width: 556px;
         }
-        @include max-screen(1010px){
-            
+
+        @include max-screen(1010px) {
+
             width: 100%;
             flex-direction: column;
             padding-top: 560px;
         }
-        @include max-screen(580px){
+
+        @include max-screen(580px) {
             padding-top: 419px;
         }
-        @include max-screen(350px){
+
+        @include max-screen(350px) {
             padding-top: 350px;
         }
 
         .text {
             .title {
                 color: #E58411;
-                font-family:  'gilroysemibold';
+                font-family: 'gilroysemibold';
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
@@ -1650,15 +1829,17 @@ header {
                 font-weight: 400;
                 line-height: normal;
                 text-transform: capitalize;
-                  
-            @include max-screen(1010px){
-               
-                max-width:100%;}
-                
+
+                @include max-screen(1010px) {
+
+                    max-width: 100%;
+                }
+
                 @include max-screen(638px) {
                     font-size: 30px;
                 }
-                @include max-screen(416px){
+
+                @include max-screen(416px) {
                     font-size: 20px;
                 }
             }
@@ -1704,11 +1885,12 @@ header {
 
         .images {
             text-align: end;
-           
-            @include max-screen(1405px){
+
+            @include max-screen(1405px) {
                 text-align: left;
             }
-            @include max-screen(1010px){
+
+            @include max-screen(1010px) {
                 padding-top: 20px;
                 width: 100%;
                 display: flex;
@@ -1716,7 +1898,8 @@ header {
                 max-width: 1000px;
                 text-align: center;
             }
-            @include max-screen(526px){
+
+            @include max-screen(526px) {
                 flex-direction: column;
                 align-items: center;
             }
@@ -1737,7 +1920,8 @@ header {
     background-color: #FFF;
     padding-top: 260px;
     padding-bottom: 260px;
-    @include max-screen(428px){
+
+    @include max-screen(428px) {
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -1745,7 +1929,7 @@ header {
     p {
         color: #E58411;
         text-align: center;
-        font-family:  'gilroysemibold';
+        font-family: 'gilroysemibold';
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -1769,14 +1953,15 @@ header {
 
     .owl-carousel {
         position: relative;
-        
+
 
         .background {
             background-image: url('../img/background_carousel_1.png');
             background-repeat: no-repeat;
             max-width: 370px;
             margin: auto;
-            @include max-screen(428px){
+
+            @include max-screen(428px) {
                 max-width: 280px;
                 background-size: 280px;
             }
@@ -1790,7 +1975,8 @@ header {
                 display: flex;
                 align-items: end;
                 justify-content: center;
-                @include max-screen(428px){
+
+                @include max-screen(428px) {
                     background-size: 250px;
                     min-height: 365px;
                     background-position: bottom 15px left 15px;
@@ -1804,7 +1990,8 @@ header {
                     .user {
                         max-width: 50px;
                         margin: auto;
-                        @include max-screen(428px){
+
+                        @include max-screen(428px) {
                             max-width: 30px;
                         }
                     }
@@ -1819,9 +2006,10 @@ header {
                         font-weight: 400;
                         line-height: normal;
                         text-transform: capitalize;
-                        @include max-screen(428px){
+
+                        @include max-screen(428px) {
                             padding-top: 0;
-                        
+
                         }
                     }
 
@@ -1846,11 +2034,12 @@ header {
                         font-style: normal;
                         font-weight: 400;
                         line-height: normal;
-                        @include max-screen(428px){
+
+                        @include max-screen(428px) {
                             padding-top: 10px;
                             max-width: 230px;
                             font-size: 12px;
-                        
+
                         }
                     }
 
@@ -1861,7 +2050,8 @@ header {
 
                         .star {
                             max-width: 18px;
-                            @include max-screen(428px){
+
+                            @include max-screen(428px) {
                                 max-width: 10px;
                             }
                         }
@@ -1876,10 +2066,12 @@ header {
             background-repeat: no-repeat;
             max-width: 370px;
             margin: auto;
-            @include max-screen(428px){
+
+            @include max-screen(428px) {
                 max-width: 280px;
                 background-size: 280px;
             }
+
             .review {
                 padding-bottom: 35px;
                 background-image: url('../img/review_1.png');
@@ -1889,7 +2081,8 @@ header {
                 display: flex;
                 align-items: end;
                 justify-content: center;
-                @include max-screen(428px){
+
+                @include max-screen(428px) {
                     background-size: 250px;
                     min-height: 365px;
                     background-position: bottom 15px left 15px;
@@ -1903,13 +2096,14 @@ header {
                     .user {
                         max-width: 50px;
                         margin: auto;
-                        @include max-screen(428px){
+
+                        @include max-screen(428px) {
                             max-width: 30px;
                         }
                     }
 
                     h4 {
-                       
+
                         color: $font_color;
                         text-align: center;
                         font-family: 'gilroybold';
@@ -1918,9 +2112,10 @@ header {
                         font-weight: 400;
                         line-height: normal;
                         text-transform: capitalize;
-                        @include max-screen(428px){
+
+                        @include max-screen(428px) {
                             padding-top: 0;
-                        
+
                         }
                     }
 
@@ -1933,10 +2128,11 @@ header {
                         font-style: normal;
                         font-weight: 400;
                         line-height: normal;
-                        @include max-screen(428px){
-                            padding-top: 0px; 
-  
-  
+
+                        @include max-screen(428px) {
+                            padding-top: 0px;
+
+
                         }
                     }
 
@@ -1950,11 +2146,12 @@ header {
                         font-style: normal;
                         font-weight: 400;
                         line-height: normal;
-                        @include max-screen(428px){
+
+                        @include max-screen(428px) {
                             padding-top: 0px;
                             max-width: 230px;
                             font-size: 12px;
-                        
+
                         }
                     }
 
@@ -1965,7 +2162,8 @@ header {
 
                         .star {
                             max-width: 18px;
-                            @include max-screen(428px){
+
+                            @include max-screen(428px) {
                                 max-width: 10px;
                             }
                         }
@@ -1980,10 +2178,12 @@ header {
             background-repeat: no-repeat;
             max-width: 370px;
             margin: auto;
-            @include max-screen(428px){
+
+            @include max-screen(428px) {
                 max-width: 280px;
                 background-size: 280px;
             }
+
             .review {
                 padding-bottom: 35px;
                 background-image: url('../img/review_1.png');
@@ -1993,7 +2193,8 @@ header {
                 display: flex;
                 align-items: end;
                 justify-content: center;
-                @include max-screen(428px){
+
+                @include max-screen(428px) {
                     background-size: 250px;
                     min-height: 365px;
                     background-position: bottom 15px left 15px;
@@ -2007,7 +2208,8 @@ header {
                     .user {
                         max-width: 50px;
                         margin: auto;
-                        @include max-screen(428px){
+
+                        @include max-screen(428px) {
                             max-width: 30px;
                         }
                     }
@@ -2022,9 +2224,10 @@ header {
                         font-weight: 400;
                         line-height: normal;
                         text-transform: capitalize;
-                        @include max-screen(428px){
+
+                        @include max-screen(428px) {
                             padding-top: 0;
-                        
+
                         }
                     }
 
@@ -2049,11 +2252,12 @@ header {
                         font-style: normal;
                         font-weight: 400;
                         line-height: normal;
-                        @include max-screen(428px){
+
+                        @include max-screen(428px) {
                             padding-top: 10px;
                             max-width: 230px;
                             font-size: 12px;
-                        
+
                         }
                     }
 
@@ -2064,7 +2268,8 @@ header {
 
                         .star {
                             max-width: 18px;
-                            @include max-screen(428px){
+
+                            @include max-screen(428px) {
                                 max-width: 10px;
                             }
                         }
@@ -2075,7 +2280,7 @@ header {
 
 
         }
-        
+
         .owl-nav.disabled {
             display: inline-block;
         }
@@ -2087,9 +2292,10 @@ header {
                 left: -42px;
                 top: 144px;
 
-                @include max-screen(1260px){
+                @include max-screen(1260px) {
                     left: -35px;
                 }
+
                 &::after {
                     display: inline-flex;
                     content: "←";
@@ -2115,9 +2321,11 @@ header {
                 position: absolute;
                 right: -27px;
                 top: 144px;
-@include max-screen(1260px){
-    right: -20px;
-}
+
+                @include max-screen(1260px) {
+                    right: -20px;
+                }
+
                 &::after {
                     display: inline-flex;
                     content: "→";
@@ -2145,7 +2353,8 @@ footer {
     background-color: #F7F7F7;
     padding-top: 118px;
     padding-bottom: 58px;
-    @include max-screen(631px){
+
+    @include max-screen(631px) {
         padding-top: 55px;
         padding-bottom: 55px;
     }
@@ -2154,19 +2363,21 @@ footer {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        @include max-screen(333px){
+
+        @include max-screen(333px) {
             flex-direction: column;
-           
+
         }
 
-        .footer_section_1{
+        .footer_section_1 {
             display: block;
 
-            @include max-screen(660px){
+            @include max-screen(660px) {
                 max-width: 600px;
                 width: 100%;
-               
+
             }
+
             h4 {
                 color: $font_color;
                 font-family: 'gilroybold';
@@ -2190,98 +2401,111 @@ footer {
                 max-width: 293px;
             }
         }
-        .footer_section_2{
+
+        .footer_section_2 {
             display: block;
             list-style: none;
-            @include max-screen(660px){
-               padding-top: 20px;
-               
+
+            @include max-screen(660px) {
+                padding-top: 20px;
+
             }
-            li{
-                &:first-of-type a{
+
+            li {
+                &:first-of-type a {
                     padding-top: 0;
-                     color: #F6973F;
-                 font-family: 'DM Sans', sans-serif;
-                 font-size: 17px;
-                 
-                 line-height: normal;
-                 letter-spacing: -0.232px;
-                 }
-                a{
+                    color: #F6973F;
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 17px;
+
+                    line-height: normal;
+                    letter-spacing: -0.232px;
+                }
+
+                a {
                     text-decoration: none;
-                padding-top: 16px;
-                color: $font_color;
-font-family: Gilroy-Medium;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 24px */
+                    padding-top: 16px;
+                    color: $font_color;
+                    font-family: Gilroy-Medium;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%;
+                    /* 24px */
 
                 }
             }
         }
-        .footer_section_4{
+
+        .footer_section_4 {
             list-style: none;
-            @include max-screen(660px){
+
+            @include max-screen(660px) {
                 padding-top: 20px;
-             }
-            li{
-               
-                &:first-of-type a{
+            }
+
+            li {
+
+                &:first-of-type a {
                     padding-top: 0;
-                     color: #F6973F;
-                 font-family: 'DM Sans', sans-serif;
-                 font-size: 17px;
-                 
-                 line-height: normal;
-                 letter-spacing: -0.232px;
-                 }
-                 &:nth-child(2) a {
-                    &:before
-                    {display: inline-block;
-                    content: "";
-                    background-image: url('../img/facebook.png');
-                    width: 9px;
-                    height: 20px;
-                    background-repeat: no-repeat;
-                    padding-right: 21px;
-                    background-position: left 3px top 1px;
-                    vertical-align: middle;
+                    color: #F6973F;
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 17px;
+
+                    line-height: normal;
+                    letter-spacing: -0.232px;
+                }
+
+                &:nth-child(2) a {
+                    &:before {
+                        display: inline-block;
+                        content: "";
+                        background-image: url('../img/facebook.png');
+                        width: 9px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        padding-right: 21px;
+                        background-position: left 3px top 1px;
+                        vertical-align: middle;
                     }
-                 }
-                 &:nth-child(3) a {
-                    &:before
-                    {display: inline-block;
-                    content: "";
-                    background-image: url('../img/twitter.svg');
-                    width: 20px;
-                    height: 15px;
-                    padding-right: 11.44px;
-                    background-repeat: no-repeat;
-                    vertical-align: middle;
+                }
+
+                &:nth-child(3) a {
+                    &:before {
+                        display: inline-block;
+                        content: "";
+                        background-image: url('../img/twitter.svg');
+                        width: 20px;
+                        height: 15px;
+                        padding-right: 11.44px;
+                        background-repeat: no-repeat;
+                        vertical-align: middle;
                     }
-                 }
-                 &:last-of-type a {
-                    &:before
-                    {display: inline-block;
-                    content: "";
-                    background-image: url('../img/instagram.svg');
-                    width: 20px;
-                    height: 20px;
-                    padding-right: 10px;
-                    background-repeat: no-repeat;
-                    vertical-align: middle;
+                }
+
+                &:last-of-type a {
+                    &:before {
+                        display: inline-block;
+                        content: "";
+                        background-image: url('../img/instagram.svg');
+                        width: 20px;
+                        height: 20px;
+                        padding-right: 10px;
+                        background-repeat: no-repeat;
+                        vertical-align: middle;
                     }
-                 }
-                a{
+                }
+
+                a {
                     text-decoration: none;
-                padding-top: 16px;
-                color: $font_color;
-font-family: 'gilroymedium';
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 24px */
+                    padding-top: 16px;
+                    color: $font_color;
+                    font-family: 'gilroymedium';
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%;
+                    /* 24px */
 
 
                 }
@@ -2293,34 +2517,40 @@ line-height: 160%; /* 24px */
         display: flex;
         justify-content: space-between;
         padding-top: 130px;
-        @include max-screen(426px){
+
+        @include max-screen(426px) {
             padding-top: 80px;
-            
+
             flex-direction: column-reverse;
         }
-        .Copyright{
+
+        .Copyright {
             color: #1E2833;
-font-family: 'DM Sans', sans-serif;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.205px;
-opacity: 0.5;
-@include max-screen(415px){
-    padding-top: 9px;
-}
+            font-family: 'DM Sans', sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.205px;
+            opacity: 0.5;
+
+            @include max-screen(415px) {
+                padding-top: 9px;
+            }
         }
-        .footer_section_5{
+
+        .footer_section_5 {
             display: flex;
             gap: 40px;
-            p{
+
+            p {
                 color: $font_color;
-font-family: 'gilroymedium';
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 24px */
+                font-family: 'gilroymedium';
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+                /* 24px */
             }
         }
     }

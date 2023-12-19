@@ -130,6 +130,60 @@ header ul {
     list-style: none;
   }
 }
+header ul #my-drop-down-menu ul {
+  list-style: none;
+  border: 1px solid black;
+}
+header ul ul#my-drop-down-menu {
+  list-style: none;
+}
+header ul #my-drop-down-menu {
+  position: relative;
+  /* (!) */
+  z-index: 3;
+}
+header ul #my-drop-down-menu li.list {
+  display: flex;
+  /* (!) */
+  margin-right: 65px;
+  border: none;
+}
+header ul #my-drop-down-menu a {
+  text-decoration: none;
+}
+header ul #my-drop-down-menu ul.child {
+  background: #293036;
+  padding: 5px;
+  position: absolute;
+  /* (!) */
+  top: 60px;
+  /* (!) */
+  left: -9999px;
+  /* (!) */
+  z-index: 3;
+  border-top: 1px solid black;
+  box-shadow: 0px 3px 7px #293036;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  max-width: 400px;
+  width: 100%;
+  min-height: 145px;
+}
+header ul #my-drop-down-menu li {
+  margin-right: 0;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid black;
+}
+header ul #my-drop-down-menu li:hover ul.child {
+  left: auto;
+  /* (!) */
+}
+header ul #my-drop-down-menu a.link {
+  display: block;
+}
 header ul li {
   text-align: center;
 }
@@ -209,9 +263,6 @@ header ul li a .arrow_bottom {
     transform: translateY(15px);
     opacity: 1;
   }
-}
-header ul li:first-of-type {
-  margin-right: 65px;
 }
 @media screen and (max-width: 750px) {
   header ul li:first-of-type {
@@ -1046,7 +1097,7 @@ header .animate-out-middle-bar {
     max-width: 250px;
   }
 }
-.main_banner .buttom p {
+.main_banner .buttom input {
   color: #FFF;
   font-family: "gilroyregular";
   font-size: 18px;
@@ -1054,9 +1105,12 @@ header .animate-out-middle-bar {
   font-weight: 400;
   line-height: 150%;
   text-align: left;
+  background: transparent;
+  border: none;
+  outline: none;
 }
 @media screen and (max-width: 638px) {
-  .main_banner .buttom p {
+  .main_banner .buttom input {
     font-size: 14px;
   }
 }
@@ -2148,7 +2202,8 @@ footer .footer_info .footer_section_2 li a {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 160%; /* 24px */
+  line-height: 160%;
+  /* 24px */
 }
 footer .footer_info .footer_section_4 {
   list-style: none;
@@ -2205,7 +2260,8 @@ footer .footer_info .footer_section_4 li a {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 160%; /* 24px */
+  line-height: 160%;
+  /* 24px */
 }
 footer .footer_section_3 {
   display: flex;
@@ -2243,5 +2299,6 @@ footer .footer_section_3 .footer_section_5 p {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 160%; /* 24px */
+  line-height: 160%;
+  /* 24px */
 }/*# sourceMappingURL=proproc.css.map */
